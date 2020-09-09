@@ -1,0 +1,7 @@
+
+State Machine - |DE1_SoC|lights:l|ps
+Name ps~4 ps~3 
+ps.D 0 0 
+ps.B 1 0 
+ps.C 0 1 
+ps.A 1 1 

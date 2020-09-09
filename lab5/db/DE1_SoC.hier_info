@@ -1,0 +1,16 @@
+|lights
+clk => ps[0].CLK
+clk => ps[1].CLK
+clk => in2[0].CLK
+clk => in2[1].CLK
+clk => in1[0].CLK
+clk => in1[1].CLK
+reset => ps.OUTPUTSELECT
+reset => ps.OUTPUTSELECT
+in[0] => in1[0].DATAIN
+in[1] => in1[1].DATAIN
+out[0] << ps[0].DB_MAX_OUTPUT_PORT_TYPE
+out[1] << Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+out[2] << ps[1].DB_MAX_OUTPUT_PORT_TYPE
+
+

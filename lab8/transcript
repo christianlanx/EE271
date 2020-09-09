@@ -1,0 +1,501 @@
+# Reading C:/intelFPGA_lite/17.0/modelsim_ase/tcl/vsim/pref.tcl
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:30:35 on Mar 11,2020
+# vlog -reportprogress 300 UserInput.sv 
+# -- Compiling module UserInput
+# -- Compiling module UserInput_testbench
+# 
+# Top level modules:
+# 	UserInput_testbench
+# End time: 13:30:36 on Mar 11,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:30:36 on Mar 11,2020
+# vlog -reportprogress 300 MovingDot.sv 
+# -- Compiling module MovingDot
+# ** Error (suppressible): (vlog-7061) MovingDot.sv(20): Variable 'RedPixels' driven in an always_ff block, may not be driven by any other process. See MovingDot.sv(13).
+# ** Error (suppressible): (vlog-7061) MovingDot.sv(21): Variable 'GrnPixels' driven in an always_ff block, may not be driven by any other process. See MovingDot.sv(14).
+# ** Error (suppressible): (vlog-7061) MovingDot.sv(22): Variable 'pattern' driven in an always_ff block, may not be driven by any other process. See MovingDot.sv(15).
+# ** Error (suppressible): (vlog-7061) MovingDot.sv(27): Variable 'RedPixels' driven in an always_ff block, may not be driven by any other process. See MovingDot.sv(13).
+# ** Error (suppressible): (vlog-7061) MovingDot.sv(28): Variable 'GrnPixels' driven in an always_ff block, may not be driven by any other process. See MovingDot.sv(14).
+# ** Error (suppressible): (vlog-7061) MovingDot.sv(29): Variable 'GrnPixels' driven in an always_ff block, may not be driven by any other process. See MovingDot.sv(14).
+# -- Compiling module moving_dot
+# -- Compiling module toggly_bit
+# -- Compiling module eight_bit_summer
+# -- Compiling module life_logic
+# -- Compiling module toggly_bit_testbench
+# -- Compiling module eight_bit_summer_testbench
+# -- Compiling module life_logic_testbench
+# End time: 13:30:36 on Mar 11,2020, Elapsed time: 0:00:00
+# Errors: 6, Warnings: 0
+# ** Error: C:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./runlab.do line 8
+# C:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog "MovingDot.sv""
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:35:20 on Mar 11,2020
+# vlog -reportprogress 300 UserInput.sv 
+# -- Compiling module UserInput
+# -- Compiling module UserInput_testbench
+# 
+# Top level modules:
+# 	UserInput_testbench
+# End time: 13:35:20 on Mar 11,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:35:20 on Mar 11,2020
+# vlog -reportprogress 300 MovingDot.sv 
+# -- Compiling module MovingDot
+# -- Compiling module moving_dot
+# -- Compiling module toggly_bit
+# -- Compiling module eight_bit_summer
+# -- Compiling module life_logic
+# -- Compiling module toggly_bit_testbench
+# -- Compiling module eight_bit_summer_testbench
+# -- Compiling module life_logic_testbench
+# 
+# Top level modules:
+# 	MovingDot
+# 	toggly_bit_testbench
+# 	eight_bit_summer_testbench
+# 	life_logic_testbench
+# End time: 13:35:20 on Mar 11,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work toggly_bit_testbench 
+# Start time: 13:35:21 on Mar 11,2020
+# Loading sv_std.std
+# Loading work.toggly_bit_testbench
+# Loading work.toggly_bit
+# ** Error: Cannot open macro file: Counter_wave.do
+# Error in macro ./runlab.do line 18
+# Cannot open macro file: Counter_wave.do
+#     while executing
+# "do Counter_wave.do"
+add wave -position end  sim:/toggly_bit_testbench/in
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: cryst  Hostname: DESKTOP-RQSLOMQ  ProcessID: 1840
+#           Attempting to use alternate WLF file "./wlftmmrnzd".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftmmrnzd
+add wave -position end  sim:/toggly_bit_testbench/current
+add wave -position end  sim:/toggly_bit_testbench/out
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/cryst/OneDrive/Documents/ece271/lab8/toggly_bit_wave.do
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:36:15 on Mar 11,2020
+# vlog -reportprogress 300 UserInput.sv 
+# -- Compiling module UserInput
+# -- Compiling module UserInput_testbench
+# 
+# Top level modules:
+# 	UserInput_testbench
+# End time: 13:36:15 on Mar 11,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:36:15 on Mar 11,2020
+# vlog -reportprogress 300 MovingDot.sv 
+# -- Compiling module MovingDot
+# -- Compiling module moving_dot
+# -- Compiling module toggly_bit
+# -- Compiling module eight_bit_summer
+# -- Compiling module life_logic
+# -- Compiling module toggly_bit_testbench
+# -- Compiling module eight_bit_summer_testbench
+# -- Compiling module life_logic_testbench
+# 
+# Top level modules:
+# 	MovingDot
+# 	toggly_bit_testbench
+# 	eight_bit_summer_testbench
+# 	life_logic_testbench
+# End time: 13:36:15 on Mar 11,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:36:16 on Mar 11,2020, Elapsed time: 0:00:55
+# Errors: 3, Warnings: 2
+# vsim -voptargs=""+acc"" -t 1ps -lib work toggly_bit_testbench 
+# Start time: 13:36:16 on Mar 11,2020
+# Loading sv_std.std
+# Loading work.toggly_bit_testbench
+# Loading work.toggly_bit
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: cryst  Hostname: DESKTOP-RQSLOMQ  ProcessID: 1840
+#           Attempting to use alternate WLF file "./wlftmiznyv".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftmiznyv
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# WARNING: No extended dataflow license exists
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:38:50 on Mar 11,2020
+# vlog -reportprogress 300 UserInput.sv 
+# -- Compiling module UserInput
+# -- Compiling module UserInput_testbench
+# 
+# Top level modules:
+# 	UserInput_testbench
+# End time: 13:38:50 on Mar 11,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:38:50 on Mar 11,2020
+# vlog -reportprogress 300 MovingDot.sv 
+# -- Compiling module MovingDot
+# -- Compiling module moving_dot
+# -- Compiling module toggly_bit
+# -- Compiling module eight_bit_summer
+# -- Compiling module life_logic
+# -- Compiling module toggly_bit_testbench
+# -- Compiling module eight_bit_summer_testbench
+# -- Compiling module life_logic_testbench
+# 
+# Top level modules:
+# 	MovingDot
+# 	toggly_bit_testbench
+# 	eight_bit_summer_testbench
+# 	life_logic_testbench
+# End time: 13:38:51 on Mar 11,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 13:38:52 on Mar 11,2020, Elapsed time: 0:02:36
+# Errors: 2, Warnings: 3
+# vsim -voptargs=""+acc"" -t 1ps -lib work eight_bit_summer_testbench 
+# Start time: 13:38:52 on Mar 11,2020
+# Loading sv_std.std
+# Loading work.eight_bit_summer_testbench
+# Loading work.eight_bit_summer
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: cryst  Hostname: DESKTOP-RQSLOMQ  ProcessID: 1840
+#           Attempting to use alternate WLF file "./wlft7ztdj2".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft7ztdj2
+# ** Error: (vish-4014) No objects found matching '/toggly_bit_testbench/in'.
+# Executing ONERROR command at macro ./toggly_bit_wave.do line 3
+# ** Error: (vish-4014) No objects found matching '/toggly_bit_testbench/current'.
+# Executing ONERROR command at macro ./toggly_bit_wave.do line 4
+# ** Error: (vish-4014) No objects found matching '/toggly_bit_testbench/out'.
+# Executing ONERROR command at macro ./toggly_bit_wave.do line 5
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+add wave -position end  sim:/eight_bit_summer_testbench/in
+add wave -position end  sim:/eight_bit_summer_testbench/out
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/cryst/OneDrive/Documents/ece271/lab8/eight_bit_summer_wave.do
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:39:38 on Mar 11,2020
+# vlog -reportprogress 300 UserInput.sv 
+# -- Compiling module UserInput
+# -- Compiling module UserInput_testbench
+# 
+# Top level modules:
+# 	UserInput_testbench
+# End time: 13:39:38 on Mar 11,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:39:38 on Mar 11,2020
+# vlog -reportprogress 300 MovingDot.sv 
+# -- Compiling module MovingDot
+# -- Compiling module moving_dot
+# -- Compiling module toggly_bit
+# -- Compiling module eight_bit_summer
+# -- Compiling module life_logic
+# -- Compiling module toggly_bit_testbench
+# -- Compiling module eight_bit_summer_testbench
+# -- Compiling module life_logic_testbench
+# 
+# Top level modules:
+# 	MovingDot
+# 	toggly_bit_testbench
+# 	eight_bit_summer_testbench
+# 	life_logic_testbench
+# End time: 13:39:38 on Mar 11,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:39:39 on Mar 11,2020, Elapsed time: 0:00:47
+# Errors: 9, Warnings: 2
+# vsim -voptargs=""+acc"" -t 1ps -lib work eight_bit_summer_testbench 
+# Start time: 13:39:39 on Mar 11,2020
+# Loading sv_std.std
+# Loading work.eight_bit_summer_testbench
+# Loading work.eight_bit_summer
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: cryst  Hostname: DESKTOP-RQSLOMQ  ProcessID: 1840
+#           Attempting to use alternate WLF file "./wlfth47193".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlfth47193
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:52:07 on Mar 11,2020
+# vlog -reportprogress 300 UserInput.sv 
+# -- Compiling module UserInput
+# -- Compiling module UserInput_testbench
+# 
+# Top level modules:
+# 	UserInput_testbench
+# End time: 13:52:07 on Mar 11,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:52:07 on Mar 11,2020
+# vlog -reportprogress 300 MovingDot.sv 
+# -- Compiling module MovingDot
+# -- Compiling module moving_dot
+# -- Compiling module toggly_bit
+# -- Compiling module eight_bit_summer
+# -- Compiling module life_logic
+# -- Compiling module toggly_bit_testbench
+# -- Compiling module eight_bit_summer_testbench
+# -- Compiling module life_logic_testbench
+# 
+# Top level modules:
+# 	MovingDot
+# 	toggly_bit_testbench
+# 	eight_bit_summer_testbench
+# 	life_logic_testbench
+# End time: 13:52:07 on Mar 11,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:52:07 on Mar 11,2020, Elapsed time: 0:12:28
+# Errors: 0, Warnings: 2
+# vsim -voptargs=""+acc"" -t 1ps -lib work life_logic_testbench 
+# Start time: 13:52:07 on Mar 11,2020
+# Loading sv_std.std
+# Loading work.life_logic_testbench
+# Loading work.life_logic
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: cryst  Hostname: DESKTOP-RQSLOMQ  ProcessID: 1840
+#           Attempting to use alternate WLF file "./wlftiezbw3".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftiezbw3
+# ** Error: (vish-4014) No objects found matching '/eight_bit_summer_testbench/in'.
+# Executing ONERROR command at macro ./eight_bit_summer_wave.do line 3
+# ** Error: (vish-4014) No objects found matching '/eight_bit_summer_testbench/out'.
+# Executing ONERROR command at macro ./eight_bit_summer_wave.do line 4
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+add wave -position end  sim:/life_logic_testbench/clk
+add wave -position end  sim:/life_logic_testbench/reset
+add wave -position end  sim:/life_logic_testbench/alive
+add wave -position end  sim:/life_logic_testbench/survive
+add wave -position end  sim:/life_logic_testbench/neighbor_count
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/cryst/OneDrive/Documents/ece271/lab8/life_logic_wave.do
+# Break key hit
+# Break in Module life_logic_testbench at MovingDot.sv line 121
+restart -f
+
+
+
+quit -sim
+# End time: 13:54:03 on Mar 11,2020, Elapsed time: 0:01:56
+# Errors: 6, Warnings: 2
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:54:08 on Mar 11,2020
+# vlog -reportprogress 300 UserInput.sv 
+# -- Compiling module UserInput
+# -- Compiling module UserInput_testbench
+# 
+# Top level modules:
+# 	UserInput_testbench
+# End time: 13:54:08 on Mar 11,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:54:08 on Mar 11,2020
+# vlog -reportprogress 300 MovingDot.sv 
+# -- Compiling module MovingDot
+# -- Compiling module moving_dot
+# -- Compiling module toggly_bit
+# -- Compiling module eight_bit_summer
+# -- Compiling module life_logic
+# -- Compiling module toggly_bit_testbench
+# -- Compiling module eight_bit_summer_testbench
+# -- Compiling module life_logic_testbench
+# 
+# Top level modules:
+# 	MovingDot
+# 	toggly_bit_testbench
+# 	eight_bit_summer_testbench
+# 	life_logic_testbench
+# End time: 13:54:08 on Mar 11,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work life_logic_testbench 
+# Start time: 13:54:08 on Mar 11,2020
+# Loading sv_std.std
+# Loading work.life_logic_testbench
+# Loading work.life_logic
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: cryst  Hostname: DESKTOP-RQSLOMQ  ProcessID: 1840
+#           Attempting to use alternate WLF file "./wlft8mc2q9".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft8mc2q9
+# ** Error: (vish-4014) No objects found matching '/eight_bit_summer_testbench/in'.
+# Executing ONERROR command at macro ./eight_bit_summer_wave.do line 3
+# ** Error: (vish-4014) No objects found matching '/eight_bit_summer_testbench/out'.
+# Executing ONERROR command at macro ./eight_bit_summer_wave.do line 4
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Break key hit
+# Simulation stop requested.
+
+quit -sim
+# End time: 13:55:35 on Mar 11,2020, Elapsed time: 0:01:27
+# Errors: 6, Warnings: 2
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:55:39 on Mar 11,2020
+# vlog -reportprogress 300 UserInput.sv 
+# -- Compiling module UserInput
+# -- Compiling module UserInput_testbench
+# 
+# Top level modules:
+# 	UserInput_testbench
+# End time: 13:55:39 on Mar 11,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:55:39 on Mar 11,2020
+# vlog -reportprogress 300 MovingDot.sv 
+# -- Compiling module MovingDot
+# -- Compiling module moving_dot
+# -- Compiling module toggly_bit
+# -- Compiling module eight_bit_summer
+# -- Compiling module life_logic
+# -- Compiling module toggly_bit_testbench
+# -- Compiling module eight_bit_summer_testbench
+# -- Compiling module life_logic_testbench
+# 
+# Top level modules:
+# 	MovingDot
+# 	toggly_bit_testbench
+# 	eight_bit_summer_testbench
+# 	life_logic_testbench
+# End time: 13:55:40 on Mar 11,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work life_logic_testbench 
+# Start time: 13:55:40 on Mar 11,2020
+# Loading sv_std.std
+# Loading work.life_logic_testbench
+# Loading work.life_logic
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: cryst  Hostname: DESKTOP-RQSLOMQ  ProcessID: 1840
+#           Attempting to use alternate WLF file "./wlft89fcyq".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft89fcyq
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Break key hit
+# Simulation stop requested.
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:57:10 on Mar 11,2020
+# vlog -reportprogress 300 UserInput.sv 
+# -- Compiling module UserInput
+# -- Compiling module UserInput_testbench
+# 
+# Top level modules:
+# 	UserInput_testbench
+# End time: 13:57:10 on Mar 11,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:57:10 on Mar 11,2020
+# vlog -reportprogress 300 MovingDot.sv 
+# -- Compiling module MovingDot
+# -- Compiling module moving_dot
+# -- Compiling module toggly_bit
+# -- Compiling module eight_bit_summer
+# -- Compiling module life_logic
+# -- Compiling module toggly_bit_testbench
+# -- Compiling module eight_bit_summer_testbench
+# -- Compiling module life_logic_testbench
+# 
+# Top level modules:
+# 	MovingDot
+# 	toggly_bit_testbench
+# 	eight_bit_summer_testbench
+# 	life_logic_testbench
+# End time: 13:57:10 on Mar 11,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:57:11 on Mar 11,2020, Elapsed time: 0:01:31
+# Errors: 0, Warnings: 2
+# vsim -voptargs=""+acc"" -t 1ps -lib work life_logic_testbench 
+# Start time: 13:57:11 on Mar 11,2020
+# Loading sv_std.std
+# Loading work.life_logic_testbench
+# Loading work.life_logic
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: cryst  Hostname: DESKTOP-RQSLOMQ  ProcessID: 1840
+#           Attempting to use alternate WLF file "./wlft4f3ies".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft4f3ies
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Break key hit
+# Break in Module life_logic_testbench at MovingDot.sv line 121
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:59:14 on Mar 11,2020
+# vlog -reportprogress 300 UserInput.sv 
+# -- Compiling module UserInput
+# -- Compiling module UserInput_testbench
+# 
+# Top level modules:
+# 	UserInput_testbench
+# End time: 14:59:14 on Mar 11,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:59:14 on Mar 11,2020
+# vlog -reportprogress 300 MovingDot.sv 
+# -- Compiling module MovingDot
+# -- Compiling module moving_dot
+# -- Compiling module toggly_bit
+# -- Compiling module eight_bit_summer
+# -- Compiling module life_logic
+# -- Compiling module toggly_bit_testbench
+# -- Compiling module eight_bit_summer_testbench
+# -- Compiling module life_logic_testbench
+# 
+# Top level modules:
+# 	MovingDot
+# 	toggly_bit_testbench
+# 	eight_bit_summer_testbench
+# 	life_logic_testbench
+# End time: 14:59:14 on Mar 11,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 14:59:16 on Mar 11,2020, Elapsed time: 1:02:05
+# Errors: 0, Warnings: 2
+# vsim -voptargs=""+acc"" -t 1ps -lib work life_logic_testbench 
+# Start time: 14:59:16 on Mar 11,2020
+# Loading sv_std.std
+# Loading work.life_logic_testbench
+# Loading work.life_logic
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: cryst  Hostname: DESKTOP-RQSLOMQ  ProcessID: 1840
+#           Attempting to use alternate WLF file "./wlftt2yw73".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftt2yw73
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Break key hit
+# Break in Module life_logic_testbench at MovingDot.sv line 137
+# End time: 08:03:22 on Mar 12,2020, Elapsed time: 17:04:06
+# Errors: 0, Warnings: 2

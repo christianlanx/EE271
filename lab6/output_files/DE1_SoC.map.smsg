@@ -1,0 +1,6 @@
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Warning (10034): Output port "HEX1" at DE1_SoC.sv(3) has no driver File: C:/Users/cryst/OneDrive/Documents/ece271/lab6/DE1_SoC.sv Line: 3
+Warning (10034): Output port "HEX2" at DE1_SoC.sv(3) has no driver File: C:/Users/cryst/OneDrive/Documents/ece271/lab6/DE1_SoC.sv Line: 3
+Warning (10034): Output port "HEX3" at DE1_SoC.sv(3) has no driver File: C:/Users/cryst/OneDrive/Documents/ece271/lab6/DE1_SoC.sv Line: 3
+Warning (10034): Output port "HEX4" at DE1_SoC.sv(3) has no driver File: C:/Users/cryst/OneDrive/Documents/ece271/lab6/DE1_SoC.sv Line: 3
+Warning (10034): Output port "HEX5" at DE1_SoC.sv(3) has no driver File: C:/Users/cryst/OneDrive/Documents/ece271/lab6/DE1_SoC.sv Line: 3

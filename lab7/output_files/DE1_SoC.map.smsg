@@ -1,0 +1,7 @@
+Warning (10273): Verilog HDL warning at seg7.sv(18): extended using "x" or "z" File: C:/Users/cryst/OneDrive/Documents/ece271/lab7/seg7.sv Line: 18
+Warning (10268): Verilog HDL information at lfsr_10.sv(7): always construct contains both blocking and non-blocking assignments File: C:/Users/cryst/OneDrive/Documents/ece271/lab7/lfsr_10.sv Line: 7
+Warning (10034): Output port "HEX1" at DE1_SoC.sv(4) has no driver File: C:/Users/cryst/OneDrive/Documents/ece271/lab7/DE1_SoC.sv Line: 4
+Warning (10034): Output port "HEX2" at DE1_SoC.sv(4) has no driver File: C:/Users/cryst/OneDrive/Documents/ece271/lab7/DE1_SoC.sv Line: 4
+Warning (10034): Output port "HEX3" at DE1_SoC.sv(4) has no driver File: C:/Users/cryst/OneDrive/Documents/ece271/lab7/DE1_SoC.sv Line: 4
+Warning (10034): Output port "HEX4" at DE1_SoC.sv(4) has no driver File: C:/Users/cryst/OneDrive/Documents/ece271/lab7/DE1_SoC.sv Line: 4
+Warning (13024): Output pins are stuck at VCC or GND

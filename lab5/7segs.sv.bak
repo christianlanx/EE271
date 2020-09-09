@@ -1,0 +1,71 @@
+module hex1 (bcd, leds);
+	input  logic [2:0] bcd;
+	output logic [6:0] leds;
+	
+	always comb begin
+		case (bcd)
+			// Light:
+			4'b000:  leds = 7'b0101111; // beer
+			4'b001:  leds = 7'b0001100; // chip
+			4'b011:  leds = 7'b0100001; // seed
+			4'b100:  leds = 7'b0000110; // cafe
+			4'b101:  leds = 7'b1000111; // juul
+			4'b110:  leds = 7'b0001000; // soda
+			default: leds = 7'bX;
+		endcase
+	end
+endmodule
+
+module hex2 (bcd, leds);
+	input  logic [2:0] bcd;
+	output logic [6:0] leds;
+	
+	always comb begin
+		case (bcd)
+			// Light:
+			4'b000:  leds = 7'b0000110; // beer
+			4'b001:  leds = 7'b1111001; // chip
+			4'b011:  leds = 7'b0000110; // seed
+			4'b100:  leds = 7'b0001110; // cafe
+			4'b101:  leds = 7'b1000001; // juul
+			4'b110:  leds = 7'b0100001; // soda
+			default: leds = 7'bX;
+		endcase
+	end
+endmodule
+
+module hex3(bcd, leds);
+	input  logic [2:0] bcd;
+	output logic [6:0] leds;
+	
+	always comb begin
+		case (bcd)
+			// Light:
+			4'b000:  leds = 7'b0101111; // beer
+			4'b001:  leds = 7'b0001011; // chip
+			4'b011:  leds = 7'b0000110; // seed
+			4'b100:  leds = 7'b0001000; // cafe
+			4'b101:  leds = 7'b1000001; // juul
+			4'b110:  leds = 7'b1000000; // soda
+			default: leds = 7'bX;
+		endcase
+	end
+endmodule
+
+module hex4 (bcd, leds);
+	input  logic [2:0] bcd;
+	output logic [6:0] leds;
+	
+	always comb begin
+		case (bcd)
+			// Light:
+			4'b000:  leds = 7'b0000011; // beer
+			4'b001:  leds = 7'b1000110; // chip
+			4'b011:  leds = 7'b0010010; // seed
+			4'b100:  leds = 7'b1000110; // cafe
+			4'b101:  leds = 7'b1100001; // juul
+			4'b110:  leds = 7'b0010010; // soda
+			default: leds = 7'bX;
+		endcase
+	end
+endmodule

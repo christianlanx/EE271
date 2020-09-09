@@ -1,0 +1,27 @@
+module victory(clk, reset, in, out);
+	input  logic clk, reset;
+	input  logic [1:0] in;
+	output logic [6:0] out;
+	
+	logic [1:0] ps, ns;
+	
+	always_comb begin
+		case (ps)
+			2'b00: 	ns = in;
+			default:	ns = ps;
+		endcase;
+	end
+	
+	always begin
+		case (ps)
+			2'b01: 	out = 7'b0100100;
+			2'b10: 	out = 7'b1111001;
+			default: out = 7'b1111111;
+		endcase
+	end
+	
+	always_ff @(posedge clk) begin
+		if (reset)	ps <= 2'b00;
+		else			ps <= ns;
+	end
+endmodule

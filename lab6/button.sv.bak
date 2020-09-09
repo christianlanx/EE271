@@ -1,0 +1,26 @@
+module button_input (clk, reset, button, out);
+	input logic clk, reset, button;
+	output logic out;
+	
+	typedef enum logic {A, B} state;
+	state ps, ns;
+	
+	always_comb begin
+		case (ps)
+			A: if (button) ns = B;
+				else			ns = A;
+			B: if (button) ns = B;
+				else			ns = A;
+		endcase
+	end
+	
+	assign out = ((ps == A) & button);
+	
+	always_ff @(posedge clk) begin
+		if (reset)
+			ps <= A;
+		else
+			ps <= ns;
+	end
+	
+endmodule

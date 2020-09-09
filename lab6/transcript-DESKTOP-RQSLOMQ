@@ -1,0 +1,121 @@
+# Reading C:/intelFPGA_lite/17.0/modelsim_ase/tcl/vsim/pref.tcl
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:15:23 on Feb 17,2020
+# vlog -reportprogress 300 CenterLight.sv 
+# -- Compiling module Light
+# -- Compiling module CenterLight_testbench
+# -- Compiling module NormalLight_testbench
+# 
+# Top level modules:
+# 	Light
+# 	CenterLight_testbench
+# 	NormalLight_testbench
+# End time: 16:15:23 on Feb 17,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:15:23 on Feb 17,2020
+# vlog -reportprogress 300 UserIn.sv 
+# -- Compiling module UserIn
+# -- Compiling module UserIn_testbench
+# 
+# Top level modules:
+# 	UserIn_testbench
+# End time: 16:15:23 on Feb 17,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:15:23 on Feb 17,2020
+# vlog -reportprogress 300 Victory.sv 
+# -- Compiling module Victory
+# -- Compiling module Victory_testbench
+# 
+# Top level modules:
+# 	Victory_testbench
+# End time: 16:15:23 on Feb 17,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work Victory_testbench 
+# Start time: 16:15:23 on Feb 17,2020
+# Loading sv_std.std
+# Loading work.Victory_testbench
+# Loading work.Victory
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: cryst  Hostname: DESKTOP-RQSLOMQ  ProcessID: 1840
+#           Attempting to use alternate WLF file "./wlft50netv".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft50netv
+# ** Error: (vish-4014) No objects found matching '/CenterLight_testbench/clk'.
+# Executing ONERROR command at macro ./Centerlight_wave.do line 3
+# ** Error: (vish-4014) No objects found matching '/CenterLight_testbench/reset'.
+# Executing ONERROR command at macro ./Centerlight_wave.do line 4
+# ** Error: (vish-4014) No objects found matching '/CenterLight_testbench/in'.
+# Executing ONERROR command at macro ./Centerlight_wave.do line 5
+# ** Error: (vish-4014) No objects found matching '/CenterLight_testbench/out'.
+# Executing ONERROR command at macro ./Centerlight_wave.do line 6
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+add wave -position end  sim:/Victory_testbench/clk
+add wave -position end  sim:/Victory_testbench/reset
+add wave -position end  sim:/Victory_testbench/in
+add wave -position end  sim:/Victory_testbench/ps
+add wave -position end  sim:/Victory_testbench/ns
+add wave -position end  sim:/Victory_testbench/out
+# Break key hit
+# Break in Module Victory at Victory.sv line 19
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/cryst/OneDrive/Documents/ece271/lab6/Victory_wave.do
+quit -sim
+# End time: 16:16:49 on Feb 17,2020, Elapsed time: 0:01:26
+# Errors: 12, Warnings: 2
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:16:53 on Feb 17,2020
+# vlog -reportprogress 300 CenterLight.sv 
+# -- Compiling module Light
+# -- Compiling module CenterLight_testbench
+# -- Compiling module NormalLight_testbench
+# 
+# Top level modules:
+# 	Light
+# 	CenterLight_testbench
+# 	NormalLight_testbench
+# End time: 16:16:53 on Feb 17,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:16:53 on Feb 17,2020
+# vlog -reportprogress 300 UserIn.sv 
+# -- Compiling module UserIn
+# -- Compiling module UserIn_testbench
+# 
+# Top level modules:
+# 	UserIn_testbench
+# End time: 16:16:53 on Feb 17,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:16:53 on Feb 17,2020
+# vlog -reportprogress 300 Victory.sv 
+# -- Compiling module Victory
+# -- Compiling module Victory_testbench
+# 
+# Top level modules:
+# 	Victory_testbench
+# End time: 16:16:53 on Feb 17,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work Victory_testbench 
+# Start time: 16:16:53 on Feb 17,2020
+# Loading sv_std.std
+# Loading work.Victory_testbench
+# Loading work.Victory
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: cryst  Hostname: DESKTOP-RQSLOMQ  ProcessID: 1840
+#           Attempting to use alternate WLF file "./wlft3dv98c".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft3dv98c
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Break key hit
+# Break in Module Victory at Victory.sv line 19
+# End time: 20:30:12 on Feb 18,2020, Elapsed time: 28:13:19
+# Errors: 0, Warnings: 2

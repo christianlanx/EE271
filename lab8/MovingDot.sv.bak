@@ -1,0 +1,5 @@
+module movingDot(clk, reset, move, GrnPixels);
+	input logic clk, reset;
+	input logic [3:0] move;
+	output logic [15:0][15:0] GrnPixels;
+	

@@ -1,0 +1,88 @@
+# Reading C:/intelFPGA_lite/17.0/modelsim_ase/tcl/vsim/pref.tcl
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:46:56 on Jun 09,2020
+# vlog -reportprogress 300 DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module Tug_Testbench
+# 
+# Top level modules:
+# 	Tug_Testbench
+# End time: 22:46:56 on Jun 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:46:56 on Jun 09,2020
+# vlog -reportprogress 300 Light.sv 
+# -- Compiling module Light
+# -- Compiling module CenterLight_testbench
+# -- Compiling module NormalLight_testbench
+# 
+# Top level modules:
+# 	CenterLight_testbench
+# 	NormalLight_testbench
+# End time: 22:46:56 on Jun 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:46:56 on Jun 09,2020
+# vlog -reportprogress 300 UserIn.sv 
+# -- Compiling module UserIn
+# -- Compiling module UserIn_testbench
+# 
+# Top level modules:
+# 	UserIn_testbench
+# End time: 22:46:56 on Jun 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:46:56 on Jun 09,2020
+# vlog -reportprogress 300 Victory.sv 
+# -- Compiling module Victory
+# -- Compiling module Victory_testbench
+# 
+# Top level modules:
+# 	Victory_testbench
+# End time: 22:46:56 on Jun 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work Tug_Testbench 
+# Start time: 22:46:57 on Jun 09,2020
+# Loading sv_std.std
+# Loading work.Tug_Testbench
+# Loading work.DE1_SoC
+# Loading work.UserIn
+# Loading work.Light
+# Loading work.Victory
+# ** Warning: (vsim-3015) DE1_SoC.sv(29): [PCDPC] - Port size (1) does not match connection size (32) for port 'is_center'. The port definition is at: Light.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Tug_Testbench/dut/one File: Light.sv
+# ** Warning: (vsim-3015) DE1_SoC.sv(29): [PCDPC] - Port size (1) does not match connection size (32) for port 'r_on'. The port definition is at: Light.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Tug_Testbench/dut/one File: Light.sv
+# ** Warning: (vsim-3015) DE1_SoC.sv(30): [PCDPC] - Port size (1) does not match connection size (32) for port 'is_center'. The port definition is at: Light.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Tug_Testbench/dut/two File: Light.sv
+# ** Warning: (vsim-3015) DE1_SoC.sv(31): [PCDPC] - Port size (1) does not match connection size (32) for port 'is_center'. The port definition is at: Light.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Tug_Testbench/dut/three File: Light.sv
+# ** Warning: (vsim-3015) DE1_SoC.sv(32): [PCDPC] - Port size (1) does not match connection size (32) for port 'is_center'. The port definition is at: Light.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Tug_Testbench/dut/four File: Light.sv
+# ** Warning: (vsim-3015) DE1_SoC.sv(33): [PCDPC] - Port size (1) does not match connection size (32) for port 'is_center'. The port definition is at: Light.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Tug_Testbench/dut/five File: Light.sv
+# ** Warning: (vsim-3015) DE1_SoC.sv(34): [PCDPC] - Port size (1) does not match connection size (32) for port 'is_center'. The port definition is at: Light.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Tug_Testbench/dut/six File: Light.sv
+# ** Warning: (vsim-3015) DE1_SoC.sv(35): [PCDPC] - Port size (1) does not match connection size (32) for port 'is_center'. The port definition is at: Light.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Tug_Testbench/dut/seven File: Light.sv
+# ** Warning: (vsim-3015) DE1_SoC.sv(36): [PCDPC] - Port size (1) does not match connection size (32) for port 'is_center'. The port definition is at: Light.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Tug_Testbench/dut/eight File: Light.sv
+# ** Warning: (vsim-3015) DE1_SoC.sv(37): [PCDPC] - Port size (1) does not match connection size (32) for port 'is_center'. The port definition is at: Light.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Tug_Testbench/dut/nine File: Light.sv
+# ** Warning: (vsim-3015) DE1_SoC.sv(37): [PCDPC] - Port size (1) does not match connection size (32) for port 'l_on'. The port definition is at: Light.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Tug_Testbench/dut/nine File: Light.sv
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: cryst  Hostname: DESKTOP-RQSLOMQ  ProcessID: 1840
+#           Attempting to use alternate WLF file "./wlft7fhn1r".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft7fhn1r
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : DE1_SoC.sv(138)
+#    Time: 7350 ps  Iteration: 1  Instance: /Tug_Testbench
+# Break in Module Tug_Testbench at DE1_SoC.sv line 138
+# End time: 22:47:32 on Jun 09,2020, Elapsed time: 0:00:35
+# Errors: 0, Warnings: 13

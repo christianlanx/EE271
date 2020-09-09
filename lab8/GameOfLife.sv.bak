@@ -1,0 +1,18 @@
+//module GameOfLife(clk, reset, red, grn, move, RedPixels, GrnPixels);
+module GameOfLife(clk, reset, red, move, RedPixels);
+//	input logic			clk, reset, red, grn;
+	input logic 		clk, reset, red;
+	input logic [3:0]	move;
+	
+	always_comb begin
+		// while the reset state is active (set the pattern)
+		if (reset) begin
+			row = 0;
+			col = 0;
+		end 
+		// while the reset state is inactive (normal game operation)
+		else begin
+			
+		end
+	end
+endmodule

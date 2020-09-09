@@ -1,0 +1,44 @@
+module lights(clk, reset, in, out);
+	input logic clk, reset;
+	input logic [1:0] in;
+	output logic [2:0] out;
+	
+	enum bit[1:0] { A, B, C, D } ps, ns;
+	
+	always_comb begin
+		case (ps)
+			A: begin
+					ns = B;
+					out <= 3'b101;
+				end
+			B: begin
+					ns = in;
+					out <= 3'b010;
+				end
+			C: begin
+					if (in == D)	ns = D;
+					else				ns = B;
+					out <= 3'b001;
+				end
+			D: begin
+					if (in == C)	ns = C;
+					else				ns = B;
+					out <= 3'b100;
+				end
+		endcase
+	end
+	
+	//DFF
+	always_ff @(posedge clk) begin
+		if (reset)
+			ps <= B;
+		else
+			ps <= ns;
+	end
+	
+endmodule
+
+module signals_testbench():
+	logic clk, reset;
+	logic [1:0] in;
+	logic [2:0] out;

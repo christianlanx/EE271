@@ -1,0 +1,30 @@
+# Reading C:/intelFPGA_lite/17.0/modelsim_ase/tcl/vsim/pref.tcl
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 08:27:33 on Feb 12,2020
+# vlog -reportprogress 300 lights.sv 
+# -- Compiling module lights
+# -- Compiling module lights_testbench
+# 
+# Top level modules:
+# 	lights_testbench
+# End time: 08:27:33 on Feb 12,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work lights_testbench 
+# Start time: 08:27:35 on Feb 12,2020
+# Loading sv_std.std
+# Loading work.lights_testbench
+# Loading work.lights
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: cryst  Hostname: DESKTOP-RQSLOMQ  ProcessID: 1840
+#           Attempting to use alternate WLF file "./wlftk5xijk".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftk5xijk
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Break key hit
+# Break in Module lights at lights.sv line 14
+# End time: 08:33:45 on Feb 12,2020, Elapsed time: 0:06:10
+# Errors: 0, Warnings: 2

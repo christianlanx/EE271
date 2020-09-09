@@ -1,0 +1,149 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'CLOCK_50'
+Slack : -4.208
+TNS   : -52.275
+
+Type  : Slow 1100mV 85C Model Setup 'clock_divider:divider|divided_clocks[23]'
+Slack : -3.485
+TNS   : -741.162
+
+Type  : Slow 1100mV 85C Model Setup 'clock_divider:divider|divided_clocks[14]'
+Slack : -2.633
+TNS   : -1436.510
+
+Type  : Slow 1100mV 85C Model Hold 'clock_divider:divider|divided_clocks[23]'
+Slack : 0.064
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'clock_divider:divider|divided_clocks[14]'
+Slack : 0.127
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'CLOCK_50'
+Slack : 0.238
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -0.754
+TNS   : -17.219
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clock_divider:divider|divided_clocks[23]'
+Slack : -0.435
+TNS   : -177.100
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clock_divider:divider|divided_clocks[14]'
+Slack : -0.423
+TNS   : -511.688
+
+Type  : Slow 1100mV 0C Model Setup 'CLOCK_50'
+Slack : -4.059
+TNS   : -50.972
+
+Type  : Slow 1100mV 0C Model Setup 'clock_divider:divider|divided_clocks[23]'
+Slack : -3.436
+TNS   : -728.662
+
+Type  : Slow 1100mV 0C Model Setup 'clock_divider:divider|divided_clocks[14]'
+Slack : -2.584
+TNS   : -1403.564
+
+Type  : Slow 1100mV 0C Model Hold 'clock_divider:divider|divided_clocks[23]'
+Slack : 0.043
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'clock_divider:divider|divided_clocks[14]'
+Slack : 0.088
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'CLOCK_50'
+Slack : 0.293
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -0.797
+TNS   : -15.944
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clock_divider:divider|divided_clocks[23]'
+Slack : -0.405
+TNS   : -171.966
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clock_divider:divider|divided_clocks[14]'
+Slack : -0.394
+TNS   : -497.567
+
+Type  : Fast 1100mV 85C Model Setup 'CLOCK_50'
+Slack : -3.568
+TNS   : -32.284
+
+Type  : Fast 1100mV 85C Model Setup 'clock_divider:divider|divided_clocks[23]'
+Slack : -1.968
+TNS   : -390.776
+
+Type  : Fast 1100mV 85C Model Setup 'clock_divider:divider|divided_clocks[14]'
+Slack : -1.528
+TNS   : -711.075
+
+Type  : Fast 1100mV 85C Model Hold 'clock_divider:divider|divided_clocks[23]'
+Slack : -0.193
+TNS   : -1.773
+
+Type  : Fast 1100mV 85C Model Hold 'clock_divider:divider|divided_clocks[14]'
+Slack : -0.154
+TNS   : -1.647
+
+Type  : Fast 1100mV 85C Model Hold 'CLOCK_50'
+Slack : 0.068
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -0.843
+TNS   : -12.861
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clock_divider:divider|divided_clocks[23]'
+Slack : -0.181
+TNS   : -17.763
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clock_divider:divider|divided_clocks[14]'
+Slack : -0.178
+TNS   : -35.897
+
+Type  : Fast 1100mV 0C Model Setup 'CLOCK_50'
+Slack : -3.002
+TNS   : -26.749
+
+Type  : Fast 1100mV 0C Model Setup 'clock_divider:divider|divided_clocks[23]'
+Slack : -1.679
+TNS   : -340.061
+
+Type  : Fast 1100mV 0C Model Setup 'clock_divider:divider|divided_clocks[14]'
+Slack : -1.281
+TNS   : -601.306
+
+Type  : Fast 1100mV 0C Model Hold 'clock_divider:divider|divided_clocks[23]'
+Slack : -0.217
+TNS   : -4.004
+
+Type  : Fast 1100mV 0C Model Hold 'clock_divider:divider|divided_clocks[14]'
+Slack : -0.165
+TNS   : -4.256
+
+Type  : Fast 1100mV 0C Model Hold 'CLOCK_50'
+Slack : 0.176
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -0.871
+TNS   : -14.973
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clock_divider:divider|divided_clocks[23]'
+Slack : -0.102
+TNS   : -6.259
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clock_divider:divider|divided_clocks[14]'
+Slack : -0.096
+TNS   : -11.977
+
+------------------------------------------------------------

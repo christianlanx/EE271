@@ -1,0 +1,172 @@
+|DE1_SoC
+HEX0[0] <= <VCC>
+HEX0[1] <= <VCC>
+HEX0[2] <= <VCC>
+HEX0[3] <= <VCC>
+HEX0[4] <= <VCC>
+HEX0[5] <= <VCC>
+HEX0[6] <= <VCC>
+HEX1[0] <= hex1:one.leds
+HEX1[1] <= hex1:one.leds
+HEX1[2] <= hex1:one.leds
+HEX1[3] <= hex1:one.leds
+HEX1[4] <= hex1:one.leds
+HEX1[5] <= hex1:one.leds
+HEX1[6] <= hex1:one.leds
+HEX2[0] <= hex2:two.leds
+HEX2[1] <= hex2:two.leds
+HEX2[2] <= hex2:two.leds
+HEX2[3] <= hex2:two.leds
+HEX2[4] <= hex2:two.leds
+HEX2[5] <= hex2:two.leds
+HEX2[6] <= hex2:two.leds
+HEX3[0] <= hex3:tre.leds
+HEX3[1] <= hex3:tre.leds
+HEX3[2] <= hex3:tre.leds
+HEX3[3] <= hex3:tre.leds
+HEX3[4] <= hex3:tre.leds
+HEX3[5] <= hex3:tre.leds
+HEX3[6] <= hex3:tre.leds
+HEX4[0] <= hex4:qua.leds
+HEX4[1] <= hex4:qua.leds
+HEX4[2] <= hex4:qua.leds
+HEX4[3] <= hex4:qua.leds
+HEX4[4] <= hex4:qua.leds
+HEX4[5] <= hex4:qua.leds
+HEX4[6] <= hex4:qua.leds
+HEX5[0] <= <VCC>
+HEX5[1] <= <VCC>
+HEX5[2] <= <VCC>
+HEX5[3] <= <VCC>
+HEX5[4] <= <VCC>
+HEX5[5] <= <VCC>
+HEX5[6] <= <VCC>
+KEY[0] => ~NO_FANOUT~
+KEY[1] => ~NO_FANOUT~
+KEY[2] => ~NO_FANOUT~
+KEY[3] => ~NO_FANOUT~
+LEDR[0] <= UPC:comb_3.stolen
+LEDR[1] <= UPC:comb_3.discounted
+LEDR[2] <= <GND>
+LEDR[3] <= <GND>
+LEDR[4] <= <GND>
+LEDR[5] <= <GND>
+LEDR[6] <= <GND>
+LEDR[7] <= <GND>
+LEDR[8] <= <GND>
+LEDR[9] <= <GND>
+SW[0] => SW[0].IN1
+SW[1] => ~NO_FANOUT~
+SW[2] => ~NO_FANOUT~
+SW[3] => ~NO_FANOUT~
+SW[4] => ~NO_FANOUT~
+SW[5] => ~NO_FANOUT~
+SW[6] => ~NO_FANOUT~
+SW[7] => SW[7].IN5
+SW[8] => SW[8].IN5
+SW[9] => SW[9].IN5
+
+
+|DE1_SoC|UPC:comb_3
+discounted <= discounted.DB_MAX_OUTPUT_PORT_TYPE
+stolen <= stolen.DB_MAX_OUTPUT_PORT_TYPE
+u => discounted.IN0
+u => discounted.IN0
+u => stolen.IN0
+p => discounted.IN1
+p => discounted.IN0
+p => stolen.IN1
+p => stolen.IN0
+c => discounted.IN1
+c => discounted.IN1
+c => stolen.IN1
+m => stolen.IN1
+m => stolen.IN1
+
+
+|DE1_SoC|hex1:one
+bcd[0] => Decoder0.IN1
+bcd[0] => Mux0.IN10
+bcd[0] => Mux1.IN10
+bcd[0] => Mux2.IN10
+bcd[1] => Mux0.IN9
+bcd[1] => Decoder1.IN1
+bcd[1] => Mux1.IN9
+bcd[1] => Mux2.IN9
+bcd[1] => leds[2].DATAIN
+bcd[2] => Decoder0.IN0
+bcd[2] => Mux0.IN8
+bcd[2] => Decoder1.IN0
+bcd[2] => Mux1.IN8
+bcd[2] => Mux2.IN8
+leds[0] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+leds[1] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+leds[2] <= bcd[1].DB_MAX_OUTPUT_PORT_TYPE
+leds[3] <= leds.DB_MAX_OUTPUT_PORT_TYPE
+leds[4] <= <GND>
+leds[5] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+leds[6] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DE1_SoC|hex2:two
+bcd[0] => Decoder0.IN1
+bcd[0] => Mux0.IN10
+bcd[0] => Mux1.IN10
+bcd[0] => Mux2.IN10
+bcd[1] => Decoder0.IN0
+bcd[1] => Mux0.IN9
+bcd[1] => Mux1.IN9
+bcd[1] => Mux2.IN9
+bcd[2] => Mux0.IN8
+bcd[2] => Mux1.IN8
+bcd[2] => Mux2.IN8
+leds[0] <= leds.DB_MAX_OUTPUT_PORT_TYPE
+leds[1] <= leds.DB_MAX_OUTPUT_PORT_TYPE
+leds[2] <= leds.DB_MAX_OUTPUT_PORT_TYPE
+leds[3] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+leds[4] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+leds[5] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+leds[6] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DE1_SoC|hex3:tre
+bcd[0] => Mux0.IN10
+bcd[0] => Mux1.IN10
+bcd[0] => Mux2.IN10
+bcd[0] => Decoder0.IN1
+bcd[1] => Mux0.IN9
+bcd[1] => Mux1.IN9
+bcd[1] => Mux2.IN9
+bcd[1] => Decoder0.IN0
+bcd[2] => Mux0.IN8
+bcd[2] => Mux1.IN8
+bcd[2] => Mux2.IN8
+bcd[2] => leds[1].DATAIN
+leds[0] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+leds[1] <= bcd[2].DB_MAX_OUTPUT_PORT_TYPE
+leds[2] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+leds[3] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+leds[4] <= <GND>
+leds[5] <= <GND>
+leds[6] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DE1_SoC|hex4:qua
+bcd[0] => Mux0.IN10
+bcd[0] => Decoder0.IN1
+bcd[0] => Mux1.IN10
+bcd[1] => Mux0.IN9
+bcd[1] => Mux1.IN9
+bcd[1] => leds[4].DATAIN
+bcd[2] => Mux0.IN8
+bcd[2] => Decoder0.IN0
+bcd[2] => Mux1.IN8
+leds[0] <= leds.DB_MAX_OUTPUT_PORT_TYPE
+leds[1] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+leds[2] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+leds[3] <= <GND>
+leds[4] <= bcd[1].DB_MAX_OUTPUT_PORT_TYPE
+leds[5] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+leds[6] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+

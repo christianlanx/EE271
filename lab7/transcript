@@ -1,0 +1,1198 @@
+# Reading C:/intelFPGA_lite/17.0/modelsim_ase/tcl/vsim/pref.tcl
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:08:27 on Feb 26,2020
+# vlog -reportprogress 300 UserInput.sv 
+# -- Compiling module UserInput
+# -- Compiling module UserInput_testbench
+# 
+# Top level modules:
+# 	UserInput_testbench
+# End time: 07:08:27 on Feb 26,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:08:27 on Feb 26,2020
+# vlog -reportprogress 300 lfsr_10.sv 
+# -- Compiling module lfsr_10
+# -- Compiling module lfsr_10_testbench
+# 
+# Top level modules:
+# 	lfsr_10_testbench
+# End time: 07:08:27 on Feb 26,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:08:27 on Feb 26,2020
+# vlog -reportprogress 300 3b_counter.sv 
+# -- Compiling module count_3b
+# -- Compiling module count_3b_testbench
+# 
+# Top level modules:
+# 	count_3b_testbench
+# End time: 07:08:27 on Feb 26,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:08:27 on Feb 26,2020
+# vlog -reportprogress 300 Comparator_10b.sv 
+# -- Compiling module Comparator_10b
+# -- Compiling module F_Adder
+# -- Compiling module F_Adder_10b
+# -- Compiling module F_Adder_testbench
+# -- Compiling module F_Adder_10b_testbench
+# -- Compiling module Comparator_10b_testbench
+# 
+# Top level modules:
+# 	F_Adder_testbench
+# 	F_Adder_10b_testbench
+# 	Comparator_10b_testbench
+# End time: 07:08:27 on Feb 26,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:08:27 on Feb 26,2020
+# vlog -reportprogress 300 ./DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# ** Error (suppressible): ./DE1_SoC.sv(15): (vlog-2388) 'reset' already declared in this scope (DE1_SoC).
+# -- Compiling module clock_divider
+# -- Compiling module Cyber_War_testbench
+# End time: 07:08:27 on Feb 26,2020, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./runlab.do line 11
+# C:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog "./DE1_SoC.sv""
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:08:46 on Feb 26,2020
+# vlog -reportprogress 300 UserInput.sv 
+# -- Compiling module UserInput
+# -- Compiling module UserInput_testbench
+# 
+# Top level modules:
+# 	UserInput_testbench
+# End time: 07:08:46 on Feb 26,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:08:46 on Feb 26,2020
+# vlog -reportprogress 300 lfsr_10.sv 
+# -- Compiling module lfsr_10
+# -- Compiling module lfsr_10_testbench
+# 
+# Top level modules:
+# 	lfsr_10_testbench
+# End time: 07:08:46 on Feb 26,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:08:46 on Feb 26,2020
+# vlog -reportprogress 300 3b_counter.sv 
+# -- Compiling module count_3b
+# -- Compiling module count_3b_testbench
+# 
+# Top level modules:
+# 	count_3b_testbench
+# End time: 07:08:46 on Feb 26,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:08:46 on Feb 26,2020
+# vlog -reportprogress 300 Comparator_10b.sv 
+# -- Compiling module Comparator_10b
+# -- Compiling module F_Adder
+# -- Compiling module F_Adder_10b
+# -- Compiling module F_Adder_testbench
+# -- Compiling module F_Adder_10b_testbench
+# -- Compiling module Comparator_10b_testbench
+# 
+# Top level modules:
+# 	F_Adder_testbench
+# 	F_Adder_10b_testbench
+# 	Comparator_10b_testbench
+# End time: 07:08:46 on Feb 26,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:08:46 on Feb 26,2020
+# vlog -reportprogress 300 Light.sv 
+# -- Compiling module Light2
+# -- Compiling module CenterLight_testbench
+# -- Compiling module NormalLight_testbench
+# 
+# Top level modules:
+# 	CenterLight_testbench
+# 	NormalLight_testbench
+# End time: 07:08:47 on Feb 26,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:08:47 on Feb 26,2020
+# vlog -reportprogress 300 seg7.sv 
+# -- Compiling module seg7
+# -- Compiling module seg7_testbench
+# 
+# Top level modules:
+# 	seg7_testbench
+# End time: 07:08:47 on Feb 26,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:08:47 on Feb 26,2020
+# vlog -reportprogress 300 Victory.sv 
+# -- Compiling module Victory2
+# -- Compiling module Victory_testbench
+# 
+# Top level modules:
+# 	Victory_testbench
+# End time: 07:08:47 on Feb 26,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work Comparator_10b_testbench 
+# Start time: 07:08:48 on Feb 26,2020
+# Loading sv_std.std
+# Loading work.Comparator_10b_testbench
+# Loading work.Comparator_10b
+# Loading work.F_Adder
+# ** Warning: (vsim-3015) Comparator_10b.sv(13): [PCDPC] - Port size (1) does not match connection size (32) for port 'B'. The port definition is at: Comparator_10b.sv(23).
+#    Time: 0 ps  Iteration: 0  Instance: /Comparator_10b_testbench/dut/eachFA[10]/genblk1/FA File: Comparator_10b.sv
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: cryst  Hostname: DESKTOP-RQSLOMQ  ProcessID: 1840
+#           Attempting to use alternate WLF file "./wlft3d4d2r".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft3d4d2r
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/cryst/OneDrive/Documents/ece271/lab7/Comparator_10b_wave.do
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:11:41 on Feb 26,2020
+# vlog -reportprogress 300 UserInput.sv 
+# -- Compiling module UserInput
+# -- Compiling module UserInput_testbench
+# 
+# Top level modules:
+# 	UserInput_testbench
+# End time: 07:11:41 on Feb 26,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:11:41 on Feb 26,2020
+# vlog -reportprogress 300 lfsr_10.sv 
+# -- Compiling module lfsr_10
+# -- Compiling module lfsr_10_testbench
+# 
+# Top level modules:
+# 	lfsr_10_testbench
+# End time: 07:11:41 on Feb 26,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:11:41 on Feb 26,2020
+# vlog -reportprogress 300 3b_counter.sv 
+# -- Compiling module count_3b
+# -- Compiling module count_3b_testbench
+# 
+# Top level modules:
+# 	count_3b_testbench
+# End time: 07:11:41 on Feb 26,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:11:41 on Feb 26,2020
+# vlog -reportprogress 300 Comparator_10b.sv 
+# -- Compiling module Comparator_10b
+# -- Compiling module F_Adder
+# -- Compiling module F_Adder_10b
+# -- Compiling module F_Adder_testbench
+# -- Compiling module F_Adder_10b_testbench
+# -- Compiling module Comparator_10b_testbench
+# 
+# Top level modules:
+# 	F_Adder_testbench
+# 	F_Adder_10b_testbench
+# 	Comparator_10b_testbench
+# End time: 07:11:41 on Feb 26,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:11:41 on Feb 26,2020
+# vlog -reportprogress 300 Light.sv 
+# -- Compiling module Light2
+# -- Compiling module CenterLight_testbench
+# -- Compiling module NormalLight_testbench
+# 
+# Top level modules:
+# 	CenterLight_testbench
+# 	NormalLight_testbench
+# End time: 07:11:41 on Feb 26,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:11:41 on Feb 26,2020
+# vlog -reportprogress 300 seg7.sv 
+# -- Compiling module seg7
+# -- Compiling module seg7_testbench
+# 
+# Top level modules:
+# 	seg7_testbench
+# End time: 07:11:41 on Feb 26,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:11:42 on Feb 26,2020
+# vlog -reportprogress 300 Victory.sv 
+# -- Compiling module Victory2
+# -- Compiling module Victory_testbench
+# 
+# Top level modules:
+# 	Victory_testbench
+# End time: 07:11:42 on Feb 26,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 07:11:43 on Feb 26,2020, Elapsed time: 0:02:55
+# Errors: 0, Warnings: 3
+# vsim -voptargs=""+acc"" -t 1ps -lib work lfsr_10_testbench 
+# Start time: 07:11:43 on Feb 26,2020
+# Loading sv_std.std
+# Loading work.lfsr_10_testbench
+# Loading work.lfsr_10
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: cryst  Hostname: DESKTOP-RQSLOMQ  ProcessID: 1840
+#           Attempting to use alternate WLF file "./wlftyxyy7b".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftyxyy7b
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : lfsr_10.sv(47)
+#    Time: 205050 ps  Iteration: 1  Instance: /lfsr_10_testbench
+# Break in Module lfsr_10_testbench at lfsr_10.sv line 47
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:16:44 on Feb 26,2020
+# vlog -reportprogress 300 UserInput.sv 
+# -- Compiling module UserInput
+# -- Compiling module UserInput_testbench
+# 
+# Top level modules:
+# 	UserInput_testbench
+# End time: 07:16:44 on Feb 26,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:16:44 on Feb 26,2020
+# vlog -reportprogress 300 lfsr_10.sv 
+# -- Compiling module lfsr_10
+# -- Compiling module lfsr_10_testbench
+# 
+# Top level modules:
+# 	lfsr_10_testbench
+# End time: 07:16:44 on Feb 26,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:16:44 on Feb 26,2020
+# vlog -reportprogress 300 3b_counter.sv 
+# ** Error: (vlog-7) Failed to open design unit file "3b_counter.sv" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 07:16:44 on Feb 26,2020, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./runlab.do line 9
+# C:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog "3b_counter.sv""
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:17:04 on Feb 26,2020
+# vlog -reportprogress 300 UserInput.sv 
+# -- Compiling module UserInput
+# -- Compiling module UserInput_testbench
+# 
+# Top level modules:
+# 	UserInput_testbench
+# End time: 07:17:05 on Feb 26,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:17:05 on Feb 26,2020
+# vlog -reportprogress 300 lfsr_10.sv 
+# -- Compiling module lfsr_10
+# -- Compiling module lfsr_10_testbench
+# 
+# Top level modules:
+# 	lfsr_10_testbench
+# End time: 07:17:05 on Feb 26,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:17:05 on Feb 26,2020
+# vlog -reportprogress 300 Counter_3b.sv 
+# -- Compiling module Counter_3b
+# -- Compiling module Counter_3b_testbench
+# 
+# Top level modules:
+# 	Counter_3b_testbench
+# End time: 07:17:05 on Feb 26,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:17:05 on Feb 26,2020
+# vlog -reportprogress 300 Comparator_10b.sv 
+# -- Compiling module Comparator_10b
+# -- Compiling module F_Adder
+# -- Compiling module F_Adder_10b
+# -- Compiling module F_Adder_testbench
+# -- Compiling module F_Adder_10b_testbench
+# -- Compiling module Comparator_10b_testbench
+# 
+# Top level modules:
+# 	F_Adder_testbench
+# 	F_Adder_10b_testbench
+# 	Comparator_10b_testbench
+# End time: 07:17:05 on Feb 26,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:17:05 on Feb 26,2020
+# vlog -reportprogress 300 Light.sv 
+# -- Compiling module Light2
+# -- Compiling module CenterLight_testbench
+# -- Compiling module NormalLight_testbench
+# 
+# Top level modules:
+# 	CenterLight_testbench
+# 	NormalLight_testbench
+# End time: 07:17:05 on Feb 26,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:17:05 on Feb 26,2020
+# vlog -reportprogress 300 seg7.sv 
+# -- Compiling module seg7
+# -- Compiling module seg7_testbench
+# 
+# Top level modules:
+# 	seg7_testbench
+# End time: 07:17:05 on Feb 26,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:17:05 on Feb 26,2020
+# vlog -reportprogress 300 Victory.sv 
+# -- Compiling module Victory2
+# -- Compiling module Victory_testbench
+# 
+# Top level modules:
+# 	Victory_testbench
+# End time: 07:17:06 on Feb 26,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 07:17:06 on Feb 26,2020, Elapsed time: 0:05:23
+# Errors: 4, Warnings: 2
+# vsim -voptargs=""+acc"" -t 1ps -lib work lfsr_10_testbench 
+# Start time: 07:17:06 on Feb 26,2020
+# Loading sv_std.std
+# Loading work.lfsr_10_testbench
+# Loading work.lfsr_10
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: cryst  Hostname: DESKTOP-RQSLOMQ  ProcessID: 1840
+#           Attempting to use alternate WLF file "./wlftcfjb55".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftcfjb55
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : lfsr_10.sv(47)
+#    Time: 205050 ps  Iteration: 1  Instance: /lfsr_10_testbench
+# Break in Module lfsr_10_testbench at lfsr_10.sv line 47
+
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:17:58 on Feb 26,2020
+# vlog -reportprogress 300 UserInput.sv 
+# -- Compiling module UserInput
+# -- Compiling module UserInput_testbench
+# 
+# Top level modules:
+# 	UserInput_testbench
+# End time: 07:17:58 on Feb 26,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:17:58 on Feb 26,2020
+# vlog -reportprogress 300 lfsr_10.sv 
+# -- Compiling module lfsr_10
+# -- Compiling module lfsr_10_testbench
+# 
+# Top level modules:
+# 	lfsr_10_testbench
+# End time: 07:17:59 on Feb 26,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:17:59 on Feb 26,2020
+# vlog -reportprogress 300 Counter_3b.sv 
+# -- Compiling module Counter_3b
+# -- Compiling module Counter_3b_testbench
+# 
+# Top level modules:
+# 	Counter_3b_testbench
+# End time: 07:17:59 on Feb 26,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:17:59 on Feb 26,2020
+# vlog -reportprogress 300 Comparator_10b.sv 
+# -- Compiling module Comparator_10b
+# -- Compiling module F_Adder
+# -- Compiling module F_Adder_10b
+# -- Compiling module F_Adder_testbench
+# -- Compiling module F_Adder_10b_testbench
+# -- Compiling module Comparator_10b_testbench
+# 
+# Top level modules:
+# 	F_Adder_testbench
+# 	F_Adder_10b_testbench
+# 	Comparator_10b_testbench
+# End time: 07:17:59 on Feb 26,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:17:59 on Feb 26,2020
+# vlog -reportprogress 300 Light.sv 
+# -- Compiling module Light2
+# -- Compiling module CenterLight_testbench
+# -- Compiling module NormalLight_testbench
+# 
+# Top level modules:
+# 	CenterLight_testbench
+# 	NormalLight_testbench
+# End time: 07:17:59 on Feb 26,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:17:59 on Feb 26,2020
+# vlog -reportprogress 300 seg7.sv 
+# -- Compiling module seg7
+# -- Compiling module seg7_testbench
+# 
+# Top level modules:
+# 	seg7_testbench
+# End time: 07:17:59 on Feb 26,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:17:59 on Feb 26,2020
+# vlog -reportprogress 300 Victory.sv 
+# -- Compiling module Victory2
+# -- Compiling module Victory_testbench
+# 
+# Top level modules:
+# 	Victory_testbench
+# End time: 07:18:00 on Feb 26,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 07:18:01 on Feb 26,2020, Elapsed time: 0:00:55
+# Errors: 0, Warnings: 2
+# vsim -voptargs=""+acc"" -t 1ps -lib work Counter_3b_testbench 
+# Start time: 07:18:01 on Feb 26,2020
+# Loading sv_std.std
+# Loading work.Counter_3b_testbench
+# Loading work.Counter_3b
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: cryst  Hostname: DESKTOP-RQSLOMQ  ProcessID: 1840
+#           Attempting to use alternate WLF file "./wlftitdm2e".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftitdm2e
+# ** Error: (vish-4014) No objects found matching '/lfsr_10_testbench/clk'.
+# Executing ONERROR command at macro ./LFSR_10_wave.do line 3
+# ** Error: (vish-4014) No objects found matching '/lfsr_10_testbench/reset'.
+# Executing ONERROR command at macro ./LFSR_10_wave.do line 4
+# ** Error: (vish-4014) No objects found matching '/lfsr_10_testbench/out'.
+# Executing ONERROR command at macro ./LFSR_10_wave.do line 5
+# ** Error: (vish-4014) No objects found matching '/lfsr_10_testbench/i'.
+# Executing ONERROR command at macro ./LFSR_10_wave.do line 6
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : Counter_3b.sv(52)
+#    Time: 1850 ps  Iteration: 1  Instance: /Counter_3b_testbench
+# Break in Module Counter_3b_testbench at Counter_3b.sv line 52
+add wave -position end  sim:/Counter_3b_testbench/clk
+add wave -position end  sim:/Counter_3b_testbench/reset
+add wave -position end  sim:/Counter_3b_testbench/in
+add wave -position end  sim:/Counter_3b_testbench/out
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/cryst/OneDrive/Documents/ece271/lab7/Counter_3b_wave.do
+restart -f
+run -all
+# ** Note: $stop    : Counter_3b.sv(52)
+#    Time: 1850 ps  Iteration: 1  Instance: /Counter_3b_testbench
+# Break in Module Counter_3b_testbench at Counter_3b.sv line 52
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:31:25 on Feb 26,2020
+# vlog -reportprogress 300 UserInput.sv 
+# -- Compiling module UserInput
+# -- Compiling module UserInput_testbench
+# 
+# Top level modules:
+# 	UserInput_testbench
+# End time: 07:31:25 on Feb 26,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:31:25 on Feb 26,2020
+# vlog -reportprogress 300 lfsr_10.sv 
+# -- Compiling module lfsr_10
+# -- Compiling module lfsr_10_testbench
+# 
+# Top level modules:
+# 	lfsr_10_testbench
+# End time: 07:31:25 on Feb 26,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:31:25 on Feb 26,2020
+# vlog -reportprogress 300 Counter_3b.sv 
+# -- Compiling module Counter_3b
+# -- Compiling module Counter_3b_testbench
+# 
+# Top level modules:
+# 	Counter_3b_testbench
+# End time: 07:31:25 on Feb 26,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:31:25 on Feb 26,2020
+# vlog -reportprogress 300 Comparator_10b.sv 
+# -- Compiling module Comparator_10b
+# -- Compiling module F_Adder
+# -- Compiling module F_Adder_10b
+# -- Compiling module F_Adder_testbench
+# -- Compiling module F_Adder_10b_testbench
+# -- Compiling module Comparator_10b_testbench
+# 
+# Top level modules:
+# 	F_Adder_testbench
+# 	F_Adder_10b_testbench
+# 	Comparator_10b_testbench
+# End time: 07:31:25 on Feb 26,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:31:25 on Feb 26,2020
+# vlog -reportprogress 300 Light.sv 
+# -- Compiling module Light2
+# -- Compiling module CenterLight_testbench
+# -- Compiling module NormalLight_testbench
+# 
+# Top level modules:
+# 	CenterLight_testbench
+# 	NormalLight_testbench
+# End time: 07:31:26 on Feb 26,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:31:26 on Feb 26,2020
+# vlog -reportprogress 300 seg7.sv 
+# -- Compiling module seg7
+# -- Compiling module seg7_testbench
+# 
+# Top level modules:
+# 	seg7_testbench
+# End time: 07:31:26 on Feb 26,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:31:26 on Feb 26,2020
+# vlog -reportprogress 300 Victory.sv 
+# -- Compiling module Victory2
+# -- Compiling module Victory_testbench
+# 
+# Top level modules:
+# 	Victory_testbench
+# End time: 07:31:26 on Feb 26,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 07:31:26 on Feb 26,2020, Elapsed time: 0:13:25
+# Errors: 12, Warnings: 2
+# vsim -voptargs=""+acc"" -t 1ps -lib work UserInput_testbench 
+# Start time: 07:31:27 on Feb 26,2020
+# Loading sv_std.std
+# Loading work.UserInput_testbench
+# Loading work.UserInput
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: cryst  Hostname: DESKTOP-RQSLOMQ  ProcessID: 1840
+#           Attempting to use alternate WLF file "./wlftm2z9ei".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftm2z9ei
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : UserInput.sv(64)
+#    Time: 2750 ps  Iteration: 1  Instance: /UserInput_testbench
+# Break in Module UserInput_testbench at UserInput.sv line 64
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:33:44 on Feb 26,2020
+# vlog -reportprogress 300 UserInput.sv 
+# -- Compiling module UserInput
+# -- Compiling module UserInput_testbench
+# 
+# Top level modules:
+# 	UserInput_testbench
+# End time: 07:33:44 on Feb 26,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:33:44 on Feb 26,2020
+# vlog -reportprogress 300 lfsr_10.sv 
+# -- Compiling module lfsr_10
+# -- Compiling module lfsr_10_testbench
+# 
+# Top level modules:
+# 	lfsr_10_testbench
+# End time: 07:33:45 on Feb 26,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:33:45 on Feb 26,2020
+# vlog -reportprogress 300 Counter_3b.sv 
+# -- Compiling module Counter_3b
+# -- Compiling module Counter_3b_testbench
+# 
+# Top level modules:
+# 	Counter_3b_testbench
+# End time: 07:33:45 on Feb 26,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:33:45 on Feb 26,2020
+# vlog -reportprogress 300 Comparator_10b.sv 
+# -- Compiling module Comparator_10b
+# -- Compiling module F_Adder
+# -- Compiling module F_Adder_10b
+# -- Compiling module F_Adder_testbench
+# -- Compiling module F_Adder_10b_testbench
+# -- Compiling module Comparator_10b_testbench
+# 
+# Top level modules:
+# 	F_Adder_testbench
+# 	F_Adder_10b_testbench
+# 	Comparator_10b_testbench
+# End time: 07:33:45 on Feb 26,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:33:45 on Feb 26,2020
+# vlog -reportprogress 300 Light.sv 
+# -- Compiling module Light2
+# -- Compiling module CenterLight_testbench
+# -- Compiling module NormalLight_testbench
+# 
+# Top level modules:
+# 	CenterLight_testbench
+# 	NormalLight_testbench
+# End time: 07:33:45 on Feb 26,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:33:45 on Feb 26,2020
+# vlog -reportprogress 300 seg7.sv 
+# -- Compiling module seg7
+# -- Compiling module seg7_testbench
+# 
+# Top level modules:
+# 	seg7_testbench
+# End time: 07:33:45 on Feb 26,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:33:45 on Feb 26,2020
+# vlog -reportprogress 300 Victory.sv 
+# -- Compiling module Victory2
+# -- Compiling module Victory_testbench
+# 
+# Top level modules:
+# 	Victory_testbench
+# End time: 07:33:46 on Feb 26,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 07:33:46 on Feb 26,2020, Elapsed time: 0:02:19
+# Errors: 0, Warnings: 2
+# vsim -voptargs=""+acc"" -t 1ps -lib work UserInput_testbench 
+# Start time: 07:33:46 on Feb 26,2020
+# Loading sv_std.std
+# Loading work.UserInput_testbench
+# Loading work.UserInput
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: cryst  Hostname: DESKTOP-RQSLOMQ  ProcessID: 1840
+#           Attempting to use alternate WLF file "./wlftjbqz2v".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftjbqz2v
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : UserInput.sv(63)
+#    Time: 2750 ps  Iteration: 1  Instance: /UserInput_testbench
+# Break in Module UserInput_testbench at UserInput.sv line 63
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:35:43 on Feb 26,2020
+# vlog -reportprogress 300 UserInput.sv 
+# -- Compiling module UserInput
+# -- Compiling module UserInput_testbench
+# 
+# Top level modules:
+# 	UserInput_testbench
+# End time: 07:35:43 on Feb 26,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:35:43 on Feb 26,2020
+# vlog -reportprogress 300 lfsr_10.sv 
+# -- Compiling module lfsr_10
+# -- Compiling module lfsr_10_testbench
+# 
+# Top level modules:
+# 	lfsr_10_testbench
+# End time: 07:35:44 on Feb 26,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:35:44 on Feb 26,2020
+# vlog -reportprogress 300 Counter_3b.sv 
+# -- Compiling module Counter_3b
+# -- Compiling module Counter_3b_testbench
+# 
+# Top level modules:
+# 	Counter_3b_testbench
+# End time: 07:35:44 on Feb 26,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:35:44 on Feb 26,2020
+# vlog -reportprogress 300 Comparator_10b.sv 
+# -- Compiling module Comparator_10b
+# -- Compiling module F_Adder
+# -- Compiling module F_Adder_10b
+# -- Compiling module F_Adder_testbench
+# -- Compiling module F_Adder_10b_testbench
+# -- Compiling module Comparator_10b_testbench
+# 
+# Top level modules:
+# 	F_Adder_testbench
+# 	F_Adder_10b_testbench
+# 	Comparator_10b_testbench
+# End time: 07:35:44 on Feb 26,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:35:44 on Feb 26,2020
+# vlog -reportprogress 300 Light.sv 
+# -- Compiling module Light2
+# -- Compiling module CenterLight_testbench
+# -- Compiling module NormalLight_testbench
+# 
+# Top level modules:
+# 	CenterLight_testbench
+# 	NormalLight_testbench
+# End time: 07:35:44 on Feb 26,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:35:44 on Feb 26,2020
+# vlog -reportprogress 300 seg7.sv 
+# -- Compiling module seg7
+# -- Compiling module seg7_testbench
+# 
+# Top level modules:
+# 	seg7_testbench
+# End time: 07:35:44 on Feb 26,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:35:44 on Feb 26,2020
+# vlog -reportprogress 300 Victory.sv 
+# -- Compiling module Victory2
+# -- Compiling module Victory_testbench
+# 
+# Top level modules:
+# 	Victory_testbench
+# End time: 07:35:44 on Feb 26,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 07:35:47 on Feb 26,2020, Elapsed time: 0:02:01
+# Errors: 0, Warnings: 2
+# vsim -voptargs=""+acc"" -t 1ps -lib work Light2_testbench 
+# Start time: 07:35:47 on Feb 26,2020
+# ** Error: (vsim-3170) Could not find 'Light2_testbench'.
+#         Searched libraries:
+#             C:/Users/cryst/OneDrive/Documents/ece271/lab7/work
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./runlab.do PAUSED at line 19
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:36:10 on Feb 26,2020
+# vlog -reportprogress 300 UserInput.sv 
+# -- Compiling module UserInput
+# -- Compiling module UserInput_testbench
+# 
+# Top level modules:
+# 	UserInput_testbench
+# End time: 07:36:10 on Feb 26,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:36:10 on Feb 26,2020
+# vlog -reportprogress 300 lfsr_10.sv 
+# -- Compiling module lfsr_10
+# -- Compiling module lfsr_10_testbench
+# 
+# Top level modules:
+# 	lfsr_10_testbench
+# End time: 07:36:10 on Feb 26,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:36:10 on Feb 26,2020
+# vlog -reportprogress 300 Counter_3b.sv 
+# -- Compiling module Counter_3b
+# -- Compiling module Counter_3b_testbench
+# 
+# Top level modules:
+# 	Counter_3b_testbench
+# End time: 07:36:10 on Feb 26,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:36:10 on Feb 26,2020
+# vlog -reportprogress 300 Comparator_10b.sv 
+# -- Compiling module Comparator_10b
+# -- Compiling module F_Adder
+# -- Compiling module F_Adder_10b
+# -- Compiling module F_Adder_testbench
+# -- Compiling module F_Adder_10b_testbench
+# -- Compiling module Comparator_10b_testbench
+# 
+# Top level modules:
+# 	F_Adder_testbench
+# 	F_Adder_10b_testbench
+# 	Comparator_10b_testbench
+# End time: 07:36:10 on Feb 26,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:36:10 on Feb 26,2020
+# vlog -reportprogress 300 Light.sv 
+# -- Compiling module Light2
+# -- Compiling module CenterLight_testbench
+# -- Compiling module NormalLight_testbench
+# 
+# Top level modules:
+# 	CenterLight_testbench
+# 	NormalLight_testbench
+# End time: 07:36:11 on Feb 26,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:36:11 on Feb 26,2020
+# vlog -reportprogress 300 seg7.sv 
+# -- Compiling module seg7
+# -- Compiling module seg7_testbench
+# 
+# Top level modules:
+# 	seg7_testbench
+# End time: 07:36:11 on Feb 26,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:36:11 on Feb 26,2020
+# vlog -reportprogress 300 Victory.sv 
+# -- Compiling module Victory2
+# -- Compiling module Victory_testbench
+# 
+# Top level modules:
+# 	Victory_testbench
+# End time: 07:36:11 on Feb 26,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work CenterLight_testbench 
+# Start time: 07:35:47 on Feb 26,2020
+# Loading sv_std.std
+# Loading work.CenterLight_testbench
+# Loading work.Light2
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: cryst  Hostname: DESKTOP-RQSLOMQ  ProcessID: 1840
+#           Attempting to use alternate WLF file "./wlft1zghzv".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft1zghzv
+# ** Error: (vish-4014) No objects found matching '/UserInput_testbench/clk'.
+# Executing ONERROR command at macro ./UserInput_wave.do line 3
+# ** Error: (vish-4014) No objects found matching '/UserInput_testbench/reset'.
+# Executing ONERROR command at macro ./UserInput_wave.do line 4
+# ** Error: (vish-4014) No objects found matching '/UserInput_testbench/buttons'.
+# Executing ONERROR command at macro ./UserInput_wave.do line 5
+# ** Error: (vish-4014) No objects found matching '/UserInput_testbench/out'.
+# Executing ONERROR command at macro ./UserInput_wave.do line 6
+# ** Error: (vish-4014) No objects found matching '/UserInput_testbench/dut/ps'.
+# Executing ONERROR command at macro ./UserInput_wave.do line 7
+# ** Error: (vish-4014) No objects found matching '/UserInput_testbench/dut/ns'.
+# Executing ONERROR command at macro ./UserInput_wave.do line 8
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : Light.sv(84)
+#    Time: 3850 ps  Iteration: 1  Instance: /CenterLight_testbench
+# Break in Module CenterLight_testbench at Light.sv line 84
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:36:33 on Feb 26,2020
+# vlog -reportprogress 300 UserInput.sv 
+# -- Compiling module UserInput
+# -- Compiling module UserInput_testbench
+# 
+# Top level modules:
+# 	UserInput_testbench
+# End time: 07:36:33 on Feb 26,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:36:33 on Feb 26,2020
+# vlog -reportprogress 300 lfsr_10.sv 
+# -- Compiling module lfsr_10
+# -- Compiling module lfsr_10_testbench
+# 
+# Top level modules:
+# 	lfsr_10_testbench
+# End time: 07:36:33 on Feb 26,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:36:33 on Feb 26,2020
+# vlog -reportprogress 300 Counter_3b.sv 
+# -- Compiling module Counter_3b
+# -- Compiling module Counter_3b_testbench
+# 
+# Top level modules:
+# 	Counter_3b_testbench
+# End time: 07:36:33 on Feb 26,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:36:33 on Feb 26,2020
+# vlog -reportprogress 300 Comparator_10b.sv 
+# -- Compiling module Comparator_10b
+# -- Compiling module F_Adder
+# -- Compiling module F_Adder_10b
+# -- Compiling module F_Adder_testbench
+# -- Compiling module F_Adder_10b_testbench
+# -- Compiling module Comparator_10b_testbench
+# 
+# Top level modules:
+# 	F_Adder_testbench
+# 	F_Adder_10b_testbench
+# 	Comparator_10b_testbench
+# End time: 07:36:33 on Feb 26,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:36:34 on Feb 26,2020
+# vlog -reportprogress 300 Light.sv 
+# -- Compiling module Light2
+# -- Compiling module CenterLight_testbench
+# -- Compiling module NormalLight_testbench
+# 
+# Top level modules:
+# 	CenterLight_testbench
+# 	NormalLight_testbench
+# End time: 07:36:34 on Feb 26,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:36:34 on Feb 26,2020
+# vlog -reportprogress 300 seg7.sv 
+# -- Compiling module seg7
+# -- Compiling module seg7_testbench
+# 
+# Top level modules:
+# 	seg7_testbench
+# End time: 07:36:34 on Feb 26,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:36:34 on Feb 26,2020
+# vlog -reportprogress 300 Victory.sv 
+# -- Compiling module Victory2
+# -- Compiling module Victory_testbench
+# 
+# Top level modules:
+# 	Victory_testbench
+# End time: 07:36:34 on Feb 26,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 07:36:37 on Feb 26,2020, Elapsed time: 0:00:50
+# Errors: 19, Warnings: 2
+# vsim -voptargs=""+acc"" -t 1ps -lib work CenterLight_testbench 
+# Start time: 07:36:37 on Feb 26,2020
+# Loading sv_std.std
+# Loading work.CenterLight_testbench
+# Loading work.Light2
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: cryst  Hostname: DESKTOP-RQSLOMQ  ProcessID: 1840
+#           Attempting to use alternate WLF file "./wlftq8vrxf".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftq8vrxf
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : Light.sv(84)
+#    Time: 3850 ps  Iteration: 1  Instance: /CenterLight_testbench
+# Break in Module CenterLight_testbench at Light.sv line 84
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:37:59 on Feb 26,2020
+# vlog -reportprogress 300 UserInput.sv 
+# -- Compiling module UserInput
+# -- Compiling module UserInput_testbench
+# 
+# Top level modules:
+# 	UserInput_testbench
+# End time: 07:37:59 on Feb 26,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:37:59 on Feb 26,2020
+# vlog -reportprogress 300 lfsr_10.sv 
+# -- Compiling module lfsr_10
+# -- Compiling module lfsr_10_testbench
+# 
+# Top level modules:
+# 	lfsr_10_testbench
+# End time: 07:38:00 on Feb 26,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:38:00 on Feb 26,2020
+# vlog -reportprogress 300 Counter_3b.sv 
+# -- Compiling module Counter_3b
+# -- Compiling module Counter_3b_testbench
+# 
+# Top level modules:
+# 	Counter_3b_testbench
+# End time: 07:38:00 on Feb 26,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:38:00 on Feb 26,2020
+# vlog -reportprogress 300 Comparator_10b.sv 
+# -- Compiling module Comparator_10b
+# -- Compiling module F_Adder
+# -- Compiling module F_Adder_10b
+# -- Compiling module F_Adder_testbench
+# -- Compiling module F_Adder_10b_testbench
+# -- Compiling module Comparator_10b_testbench
+# 
+# Top level modules:
+# 	F_Adder_testbench
+# 	F_Adder_10b_testbench
+# 	Comparator_10b_testbench
+# End time: 07:38:00 on Feb 26,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:38:00 on Feb 26,2020
+# vlog -reportprogress 300 Light.sv 
+# -- Compiling module Light2
+# -- Compiling module CenterLight_testbench
+# -- Compiling module NormalLight_testbench
+# 
+# Top level modules:
+# 	CenterLight_testbench
+# 	NormalLight_testbench
+# End time: 07:38:00 on Feb 26,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:38:00 on Feb 26,2020
+# vlog -reportprogress 300 seg7.sv 
+# -- Compiling module seg7
+# -- Compiling module seg7_testbench
+# 
+# Top level modules:
+# 	seg7_testbench
+# End time: 07:38:00 on Feb 26,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:38:00 on Feb 26,2020
+# vlog -reportprogress 300 Victory.sv 
+# -- Compiling module Victory2
+# -- Compiling module Victory_testbench
+# 
+# Top level modules:
+# 	Victory_testbench
+# End time: 07:38:00 on Feb 26,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 07:38:03 on Feb 26,2020, Elapsed time: 0:01:26
+# Errors: 0, Warnings: 2
+# vsim -voptargs=""+acc"" -t 1ps -lib work NormalLight_testbench 
+# Start time: 07:38:03 on Feb 26,2020
+# Loading sv_std.std
+# Loading work.NormalLight_testbench
+# Loading work.Light2
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: cryst  Hostname: DESKTOP-RQSLOMQ  ProcessID: 1840
+#           Attempting to use alternate WLF file "./wlftsin3nf".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftsin3nf
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : Light.sv(142)
+#    Time: 3850 ps  Iteration: 1  Instance: /NormalLight_testbench
+# Break in Module NormalLight_testbench at Light.sv line 142
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:41:10 on Feb 26,2020
+# vlog -reportprogress 300 UserInput.sv 
+# -- Compiling module UserInput
+# -- Compiling module UserInput_testbench
+# 
+# Top level modules:
+# 	UserInput_testbench
+# End time: 07:41:10 on Feb 26,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:41:10 on Feb 26,2020
+# vlog -reportprogress 300 lfsr_10.sv 
+# -- Compiling module lfsr_10
+# -- Compiling module lfsr_10_testbench
+# 
+# Top level modules:
+# 	lfsr_10_testbench
+# End time: 07:41:10 on Feb 26,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:41:10 on Feb 26,2020
+# vlog -reportprogress 300 Counter_3b.sv 
+# -- Compiling module Counter_3b
+# -- Compiling module Counter_3b_testbench
+# 
+# Top level modules:
+# 	Counter_3b_testbench
+# End time: 07:41:10 on Feb 26,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:41:10 on Feb 26,2020
+# vlog -reportprogress 300 Comparator_10b.sv 
+# -- Compiling module Comparator_10b
+# -- Compiling module F_Adder
+# -- Compiling module F_Adder_10b
+# -- Compiling module F_Adder_testbench
+# -- Compiling module F_Adder_10b_testbench
+# -- Compiling module Comparator_10b_testbench
+# 
+# Top level modules:
+# 	F_Adder_testbench
+# 	F_Adder_10b_testbench
+# 	Comparator_10b_testbench
+# End time: 07:41:10 on Feb 26,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:41:10 on Feb 26,2020
+# vlog -reportprogress 300 Light.sv 
+# -- Compiling module Light2
+# -- Compiling module CenterLight_testbench
+# -- Compiling module NormalLight_testbench
+# 
+# Top level modules:
+# 	CenterLight_testbench
+# 	NormalLight_testbench
+# End time: 07:41:11 on Feb 26,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:41:11 on Feb 26,2020
+# vlog -reportprogress 300 seg7.sv 
+# -- Compiling module seg7
+# -- Compiling module seg7_testbench
+# 
+# Top level modules:
+# 	seg7_testbench
+# End time: 07:41:11 on Feb 26,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:41:11 on Feb 26,2020
+# vlog -reportprogress 300 Victory.sv 
+# -- Compiling module Victory2
+# -- Compiling module Victory_testbench
+# 
+# Top level modules:
+# 	Victory_testbench
+# End time: 07:41:11 on Feb 26,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 07:41:14 on Feb 26,2020, Elapsed time: 0:03:11
+# Errors: 0, Warnings: 2
+# vsim -voptargs=""+acc"" -t 1ps -lib work Victory_testbench 
+# Start time: 07:41:14 on Feb 26,2020
+# Loading sv_std.std
+# Loading work.Victory_testbench
+# Loading work.Victory2
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: cryst  Hostname: DESKTOP-RQSLOMQ  ProcessID: 1840
+#           Attempting to use alternate WLF file "./wlftbf00d3".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftbf00d3
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : Victory.sv(92)
+#    Time: 5150 ps  Iteration: 1  Instance: /Victory_testbench
+# Break in Module Victory_testbench at Victory.sv line 92
+# End time: 08:11:51 on Feb 26,2020, Elapsed time: 0:30:37
+# Errors: 0, Warnings: 2

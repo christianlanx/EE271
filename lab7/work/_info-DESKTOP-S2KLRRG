@@ -1,0 +1,760 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/cryst/OneDrive/Documents/ece271/Lab1_files (1)
+vCenterLight
+Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+!s110 1581981718
+!i10b 1
+!s100 [QLfSz`Te5?DE;bVh=lS13
+IPzg[DR=afG9Z?]Pz?2L:[2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+!s105 CenterLight_sv_unit
+S1
+Z2 dC:/Users/cryst/OneDrive/Documents/ece271/lab6
+w1581981693
+8CenterLight.sv
+FCenterLight.sv
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1581981717.000000
+!s107 CenterLight.sv|
+!s90 -reportprogress|300|CenterLight.sv|
+!i113 1
+Z4 tCvgOpt 0
+n@center@light
+vCenterLight_testbench
+R0
+Z5 !s110 1582130740
+!i10b 1
+!s100 `:ZS]LI?c8Rj8]V^:1E5`1
+I7k00_7Ue26oIZ7oJBPKIJ3
+R1
+Z6 !s105 Light_sv_unit
+S1
+R2
+Z7 w1582096681
+Z8 8Light.sv
+Z9 FLight.sv
+L0 34
+R3
+r1
+!s85 0
+31
+Z10 !s108 1582130740.000000
+Z11 !s107 Light.sv|
+Z12 !s90 -reportprogress|300|Light.sv|
+!i113 1
+R4
+n@center@light_testbench
+vcompr_10
+R0
+Z13 !s110 1582347604
+!i10b 1
+!s100 8k0?JhUTzAn4z<GX78IZm0
+IPRgQ<_ibgA>G@0h]bn_>70
+R1
+Z14 !s105 compr_10_sv_unit
+S1
+Z15 dC:/Users/cryst/OneDrive/Documents/ece271/lab7
+Z16 w1582347567
+Z17 8compr_10.sv
+Z18 Fcompr_10.sv
+L0 1
+R3
+r1
+!s85 0
+31
+Z19 !s108 1582347604.000000
+Z20 !s107 compr_10.sv|
+Z21 !s90 -reportprogress|300|compr_10.sv|
+!i113 1
+R4
+vcount_3b
+R0
+R13
+!i10b 1
+!s100 i`FU9QaO5YeELPEYR47Kz0
+IPEFDJfJ9Q1_<:Yj]JZd3D1
+R1
+Z22 !s105 _3b_counter_sv_unit
+S1
+R15
+Z23 w1582339530
+Z24 83b_counter.sv
+Z25 F3b_counter.sv
+L0 1
+R3
+r1
+!s85 0
+31
+R19
+Z26 !s107 3b_counter.sv|
+Z27 !s90 -reportprogress|300|3b_counter.sv|
+!i113 1
+R4
+vcount_3b_testbench
+R0
+R13
+!i10b 1
+!s100 jES^ZNC2O4@9a9c8c>^R<0
+I0PiCOaVi[a`:A_[PfV9RM3
+R1
+R22
+S1
+R15
+R23
+R24
+R25
+L0 21
+R3
+r1
+!s85 0
+31
+R19
+R26
+R27
+!i113 1
+R4
+vDE1_SoC
+R0
+R5
+!i10b 1
+!s100 d3bNz_oUODiFXW^DHYb;R1
+IQ1^[ON:zB6gd7gj9:QPaG1
+R1
+Z28 !s105 DE1_SoC_sv_unit
+S1
+R2
+Z29 w1582101119
+Z30 8DE1_SoC.sv
+Z31 FDE1_SoC.sv
+L0 1
+R3
+r1
+!s85 0
+31
+R10
+Z32 !s107 DE1_SoC.sv|
+Z33 !s90 -reportprogress|300|DE1_SoC.sv|
+!i113 1
+R4
+n@d@e1_@so@c
+vDE1_SoC_Testbench
+R0
+!s110 1582100754
+!i10b 1
+!s100 kjYYD4`;6LeB:6@Oe?_4i1
+IbK6872WPPEYZTj1mdK1Mf0
+R1
+R28
+S1
+dC:/Users/cryst/OneDrive/Desktop/lab6
+w1582100205
+R30
+R31
+Z34 L0 49
+R3
+r1
+!s85 0
+31
+!s108 1582100754.000000
+R32
+R33
+!i113 1
+R4
+n@d@e1_@so@c_@testbench
+vDE1_SoC_testbench
+R0
+Z35 !s110 1579710904
+!i10b 1
+!s100 i4KF?mFY>H7kATIWca_0_3
+Ibc>1koiU:OM<Ylo2CSa1[3
+R1
+R28
+S1
+Z36 dC:/Users/cryst/OneDrive/Documents/ece271/lab2
+w1579709924
+R30
+R31
+L0 45
+R3
+r1
+!s85 0
+31
+Z37 !s108 1579710904.000000
+R32
+R33
+!i113 1
+R4
+n@d@e1_@so@c_testbench
+vfulladder
+R0
+R13
+!i10b 1
+!s100 klc=Kn7=Y3<_4UkW`Q>;13
+IoC<AW^LQ`EGnSJZ0_>_DP1
+R1
+R14
+S1
+R15
+R16
+R17
+R18
+L0 15
+R3
+r1
+!s85 0
+31
+R19
+R20
+R21
+!i113 1
+R4
+vfulladder_testbench
+R0
+R13
+!i10b 1
+!s100 M`4ZBfTYXRWCJeJeagHZ22
+Im[1fQ;b?CEoDVT8`j__?A3
+R1
+R14
+S1
+R15
+R16
+R17
+R18
+L0 26
+R3
+r1
+!s85 0
+31
+R19
+R20
+R21
+!i113 1
+R4
+vhalfadder
+R0
+R13
+!i10b 1
+!s100 EEDFN<X@gbS@fTOS10Ged3
+I]YcYIIzGDF6778H8GkRUm3
+R1
+R14
+S1
+R15
+R16
+R17
+R18
+L0 7
+R3
+r1
+!s85 0
+31
+R19
+R20
+R21
+!i113 1
+R4
+vlfsr_10
+R0
+R13
+!i10b 1
+!s100 TM_QZ1GkgkD6jJk8hOkja3
+Id:5@]G74OgnMV]LV;Zj>n1
+R1
+Z38 !s105 lfsr_10_sv_unit
+S1
+R15
+Z39 w1582345128
+Z40 8lfsr_10.sv
+Z41 Flfsr_10.sv
+L0 1
+R3
+r1
+!s85 0
+31
+R19
+Z42 !s107 lfsr_10.sv|
+Z43 !s90 -reportprogress|300|lfsr_10.sv|
+!i113 1
+R4
+vlfsr_10_testbench
+R0
+R13
+!i10b 1
+!s100 3Ec5YB<2MnZZzez^lkoE71
+I<SNeEI6T=nPkbY_[o04Vk1
+R1
+R38
+S1
+R15
+R39
+R40
+R41
+L0 27
+R3
+r1
+!s85 0
+31
+R19
+R42
+R43
+!i113 1
+R4
+vLight
+R0
+R5
+!i10b 1
+!s100 g8[<jH1o;DD9BgzQelO1:1
+InZPY@WYz;84oa[WfZPaOe0
+R1
+R6
+S1
+R2
+R7
+R8
+R9
+L0 1
+R3
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 1
+R4
+n@light
+vlights
+R0
+Z44 !s110 1581524853
+!i10b 1
+!s100 [z;fJm8Ah`mz`mZ@Nje@g3
+IBhlABQkDjSPO:KIQgKA2>1
+R1
+Z45 !s105 lights_sv_unit
+S1
+Z46 dC:/Users/cryst/OneDrive/Documents/ece271/lab5
+Z47 w1581519528
+Z48 8lights.sv
+Z49 Flights.sv
+L0 1
+R3
+r1
+!s85 0
+31
+Z50 !s108 1581524853.000000
+Z51 !s107 lights.sv|
+Z52 !s90 -reportprogress|300|lights.sv|
+!i113 1
+R4
+vlights_testbench
+R0
+R44
+!i10b 1
+!s100 H8F0Vj8;oW8SJEme_O6DN2
+Izn8SSEMaCaRAD52_<AY;<1
+R1
+R45
+S1
+R46
+R47
+R48
+R49
+L0 44
+R3
+r1
+!s85 0
+31
+R50
+R51
+R52
+!i113 1
+R4
+vmux2_1
+R0
+R35
+!i10b 1
+!s100 db@k@fnga:kY6M:UDM?iV1
+I=`BIl]_kac8XABNCWYSYY3
+R1
+Z53 !s105 mux2_1_sv_unit
+S1
+R36
+Z54 w1579537604
+Z55 8mux2_1.sv
+Z56 Fmux2_1.sv
+L0 1
+R3
+r1
+!s85 0
+31
+R37
+Z57 !s107 mux2_1.sv|
+Z58 !s90 -reportprogress|300|mux2_1.sv|
+!i113 1
+R4
+vmux2_1_testbench
+R0
+R35
+!i10b 1
+!s100 AaPWH7@z6J3I9g7Ce@1ED1
+IMEQGYnnI_XHYKIYV@gGNm1
+R1
+R53
+S1
+R36
+R54
+R55
+R56
+L0 8
+R3
+r1
+!s85 0
+31
+R37
+R57
+R58
+!i113 1
+R4
+vmux4_1
+R0
+R35
+!i10b 1
+!s100 E7R1Cg6SkhaPO]9<9MDj:0
+IP^:3M]0=I>HYT;lHI3F1=3
+R1
+Z59 !s105 mux4_1_sv_unit
+S1
+R36
+Z60 w1579538207
+Z61 8mux4_1.sv
+Z62 Fmux4_1.sv
+L0 1
+R3
+r1
+!s85 0
+31
+R37
+Z63 !s107 mux4_1.sv|
+Z64 !s90 -reportprogress|300|mux4_1.sv|
+!i113 1
+R4
+vmux4_1_testbench
+R0
+R35
+!i10b 1
+!s100 ll]I`8AJLAGZRQV>dh12>3
+Io8^YhI>m7mZOYEHA@84Z]2
+R1
+R59
+S1
+R36
+R60
+R61
+R62
+L0 12
+R3
+r1
+!s85 0
+31
+R37
+R63
+R64
+!i113 1
+R4
+vNormalLight_testbench
+R0
+R5
+!i10b 1
+!s100 _U6mVPO1SIb@eO:VDe3eP0
+IQ7Lozco?0F5=Laim8KYbH0
+R1
+R6
+S1
+R2
+R7
+R8
+R9
+L0 92
+R3
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 1
+R4
+n@normal@light_testbench
+vseg7
+R0
+Z65 !s110 1580923813
+!i10b 1
+!s100 c4HUanJfo]L9>CDo9`9<N2
+IcHK4amNa=fJ7=ViJBZikM3
+R1
+Z66 !s105 seg7_sv_unit
+S1
+Z67 dC:/Users/cryst/OneDrive/Documents/ece271/lab4
+Z68 w1580923391
+Z69 8seg7.sv
+Z70 Fseg7.sv
+L0 1
+R3
+r1
+!s85 0
+31
+Z71 !s108 1580923813.000000
+Z72 !s107 seg7.sv|
+Z73 !s90 -reportprogress|300|seg7.sv|
+!i113 1
+R4
+vseg7_testbench
+R0
+R65
+!i10b 1
+!s100 8BW65[10OJ_E0GB@fTNAE3
+I7l`DHQ4XmF0DzIk9P8z]S2
+R1
+R66
+S1
+R67
+R68
+R69
+R70
+L0 24
+R3
+r1
+!s85 0
+31
+R71
+R72
+R73
+!i113 1
+R4
+vsimple
+R0
+Z74 !s110 1581226792
+!i10b 1
+!s100 l:Ja3]ah8Xz13a:R52T0Q0
+IS7Ta1noj`h^o?2dA7h9>@1
+R1
+Z75 !s105 simple_sv_unit
+S1
+R46
+Z76 w1581226643
+Z77 8simple.sv
+Z78 Fsimple.sv
+L0 1
+R3
+r1
+!s85 0
+31
+Z79 !s108 1581226792.000000
+Z80 !s107 simple.sv|
+Z81 !s90 -reportprogress|300|simple.sv|
+!i113 1
+R4
+vsimple_testbench
+R0
+R74
+!i10b 1
+!s100 J2jN_^gh27NP]zZ`;jL3z3
+I^O10llLZLmE;K3E[gmfHN0
+R1
+R75
+S1
+R46
+R76
+R77
+R78
+L0 32
+R3
+r1
+!s85 0
+31
+R79
+R80
+R81
+!i113 1
+R4
+vTug_Testbench
+R0
+R5
+!i10b 1
+!s100 dl;fGM_aFk<^?G`GB@f593
+I<GUz:l^bNVfcgJhcjb9Ma0
+R1
+R28
+S1
+R2
+R29
+R30
+R31
+R34
+R3
+r1
+!s85 0
+31
+R10
+R32
+R33
+!i113 1
+R4
+n@tug_@testbench
+vUPC
+R0
+Z82 !s110 1580921028
+!i10b 1
+!s100 [@7b]zN3XWHX2H><F]iQR3
+INKmc@dzMYHimP0@khHUZz2
+R1
+Z83 !s105 UPC_sv_unit
+S1
+R67
+Z84 w1580071153
+Z85 8UPC.sv
+Z86 FUPC.sv
+L0 1
+R3
+r1
+!s85 0
+31
+Z87 !s108 1580921028.000000
+Z88 !s107 UPC.sv|
+Z89 !s90 -reportprogress|300|UPC.sv|
+!i113 1
+R4
+n@u@p@c
+vUPC_testbench
+R0
+R82
+!i10b 1
+!s100 SfnFJciH@Xa;eHgFmCbo_2
+I_jOg0L6^B6^Zj?6MZB?_=1
+R1
+R83
+S1
+R67
+R84
+R85
+R86
+L0 9
+R3
+r1
+!s85 0
+31
+R87
+R88
+R89
+!i113 1
+R4
+n@u@p@c_testbench
+vUserIn
+R0
+Z90 !s110 1582130741
+!i10b 1
+!s100 7D[SWL?[IPJjYZe9jF:Sl1
+I5746f9]]n66fIZQf[62MX2
+R1
+Z91 !s105 UserIn_sv_unit
+S1
+R2
+Z92 w1582095796
+Z93 8UserIn.sv
+Z94 FUserIn.sv
+L0 1
+R3
+r1
+!s85 0
+31
+R10
+Z95 !s107 UserIn.sv|
+Z96 !s90 -reportprogress|300|UserIn.sv|
+!i113 1
+R4
+n@user@in
+vUserIn_testbench
+R0
+R90
+!i10b 1
+!s100 T;2Uj?J[W@<o2?6WOSe]g3
+IX54^?`JDldTEMj>3=6`QJ3
+R1
+R91
+S1
+R2
+R92
+R93
+R94
+L0 28
+R3
+r1
+!s85 0
+31
+R10
+R95
+R96
+!i113 1
+R4
+n@user@in_testbench
+vVictory
+R0
+R90
+!i10b 1
+!s100 F3PUg;KlVBm1i`iOiHhIc3
+IbWeS506Q3XjPkjKda=D242
+R1
+Z97 !s105 Victory_sv_unit
+S1
+R2
+Z98 w1582097337
+Z99 8Victory.sv
+Z100 FVictory.sv
+L0 1
+R3
+r1
+!s85 0
+31
+Z101 !s108 1582130741.000000
+Z102 !s107 Victory.sv|
+Z103 !s90 -reportprogress|300|Victory.sv|
+!i113 1
+R4
+n@victory
+vVictory_testbench
+R0
+R90
+!i10b 1
+!s100 0Z];lI3VMdb0c]dZlZhRO0
+I^8dBzSl0LRc65FLJbf`XQ3
+R1
+R97
+S1
+R2
+R98
+R99
+R100
+L0 41
+R3
+r1
+!s85 0
+31
+R101
+R102
+R103
+!i113 1
+R4
+n@victory_testbench
